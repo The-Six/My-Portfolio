@@ -1,0 +1,8 @@
+.Intro {
+  display: flex;
+  width: 30vw;
+  height: 10vh;
+  border: 1px solid greenyellow;
+  justify-content: center;
+  align-items: center;
+}

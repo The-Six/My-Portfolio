@@ -1,0 +1,9 @@
+.Projects {
+  display: flex;
+  height: 10vh;
+  width: 80vw;
+  border: 1px solid purple;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}

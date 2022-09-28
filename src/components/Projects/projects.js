@@ -1,9 +1,10 @@
 import React from 'react'
+import "./projects.css"
 
-function projects() {
+function Projects() {
   return (
-    <div>projects</div>
+    <div className="Projects">projects</div>
   )
 }
 
-export default projects
+export default Projects

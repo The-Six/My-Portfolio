@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./intro.css";
 
-function intro() {
-  return (
-    <div>intro</div>
-  )
+function Intro() {
+  return <div className="Intro">intro</div>;
 }
 
-export default intro
+export default Intro;

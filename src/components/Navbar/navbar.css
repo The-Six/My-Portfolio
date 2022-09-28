@@ -1,0 +1,8 @@
+.Navbar {
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  border: 1px solid hotpink;
+  justify-content: center;
+  align-items: center;
+}

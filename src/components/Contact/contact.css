@@ -1,0 +1,9 @@
+.Contact {
+    display: flex;
+    height: 10vh;
+    width: 30vw;
+    border: 1px solid cyan;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
