@@ -10,7 +10,7 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const [intro, setIntro] = useState("intro_tab");
+  const [intro, setIntro] = useState("selector_tab");
   const [about, setAbout] = useState("about_tab");
   const [projects, setProjects] = useState("projects_tab");
   const [skills, setSkills] = useState("skills_tab");
@@ -29,12 +29,19 @@ function App() {
         setSkills={setSkills}
         setContact={setContact}
       />
-      <Intro />
-      <About />
+      {/* <div> */}
+      {intro === "selector_tab" ? <Intro /> : <></>}
+      {about === "selector_tab" ? <About /> : <></>}
+      {projects === "selector_tab" ? <Projects /> : <></>}
+      {skills === "selector_tab" ? <Skills /> : <></>}
+      {contact === "selector_tab" ? <Contact /> : <></>}
+      {/* </div> */}
+
+      {/* <About />
       <Projects />
       <Skills />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
