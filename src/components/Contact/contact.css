@@ -1,9 +1,34 @@
 .Contact {
-    display: flex;
-    height: 10vh;
-    width: 30vw;
-    border: 1px solid cyan;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-  }
+  width: 100vw;
+  height: 80vh;
+}
+
+.contact_box {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  width: 100%;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.left_contactBar {
+  height: 1px;
+  background-color: #00ed34;
+  width: 40%;
+}
+
+.right_contactBar {
+  height: 1px;
+  background-color: #00ed34;
+  width: 40%;
+}
+
+.contact_text {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  border: 1px solid #00ed34;
+  justify-content: center;
+  align-items: center;
+}
