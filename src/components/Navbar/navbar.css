@@ -3,8 +3,25 @@
   flex-direction: row;
   height: 10vh;
   width: 100vw;
-  border-bottom: 1px solid #00ed34;
+
   justify-content: space-evenly;
+}
+
+.inbetween_box {
+  border-bottom: 1px solid #00ed34;
+  height: 50%;
+  align-self: end;
+  width: 9.1vw;
+}
+
+.selector_tab {
+  border-left: 1px solid #00ed34;
+  border-top: 1px solid #00ed34;
+  border-right: 1px solid #00ed34;
+  height: 50%;
+  align-self: end;
+  width: 9.1vw;
+  background-color: #000000;
 }
 
 .intro_tab {
