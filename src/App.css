@@ -7,16 +7,10 @@
   color: white;
 }
 
-.Main {
+/* .Main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 80vh;
   width: 100vw;
-}
-
-.Intro_about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+} */
