@@ -29,19 +29,12 @@ function App() {
         setSkills={setSkills}
         setContact={setContact}
       />
-      {/* <div> */}
       {intro === "selector_tab" ? <Intro /> : <></>}
       {about === "selector_tab" ? <About /> : <></>}
       {projects === "selector_tab" ? <Projects /> : <></>}
       {skills === "selector_tab" ? <Skills /> : <></>}
       {contact === "selector_tab" ? <Contact /> : <></>}
-      {/* </div> */}
-
-      {/* <About />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer /> */}
+      <Footer/>
     </div>
   );
 }

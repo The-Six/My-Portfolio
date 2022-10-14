@@ -6,7 +6,7 @@ function About() {
     <div className="About">
       <div className="about_box">
         <div className="left_aboutBar"></div>
-        <div className="about_text">about</div>
+        <div className="about_text">A B O U T</div>
         <div className="right_aboutBar"></div>
       </div>
     </div>

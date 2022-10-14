@@ -51,15 +51,15 @@ function Navbar({
   return (
     <div className="Navbar">
       <div className="inbetween_box"></div>
-      <button className={intro} onClick={() => setStyles(1)}></button>
+      <button className={intro} onClick={() => setStyles(1)}>Intro</button>
       <div className="inbetween_box"></div>
-      <button className={about} onClick={() => setStyles(2)}></button>
+      <button className={about} onClick={() => setStyles(2)}>About</button>
       <div className="inbetween_box"></div>
-      <button className={projects} onClick={() => setStyles(3)}></button>
+      <button className={projects} onClick={() => setStyles(3)}>Projects</button>
       <div className="inbetween_box"></div>
-      <button className={skills} onClick={() => setStyles(4)}></button>
+      <button className={skills} onClick={() => setStyles(4)}>Skills</button>
       <div className="inbetween_box"></div>
-      <button className={contact} onClick={() => setStyles(5)}></button>
+      <button className={contact} onClick={() => setStyles(5)}>Contact</button>
       <div className="inbetween_box"></div>
     </div>
   );

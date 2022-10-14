@@ -1,9 +1,53 @@
 .Footer {
   height: 10vh;
-  width: 99.6vw;
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  border: 1px solid blue;
-  justify-content: center;
+  border-top: 1px solid #00ed34;
+  justify-content: space-between;
   align-items: center;
+  background-color: #006f18;
+  color: #00ed34;
+  font-size: 22px;
+}
+
+.Year {
+  padding-left: 10px;
+  width: 40%;
+}
+
+.Copyright {
+  display: flex;
+  padding-right: 10px;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.Level {
+  flex-direction: row;
+  display: flex;
+  width: 65%;
+  height: 50%;
+  border: 1px solid #00ed34;
+  /* padding-left: 10px; */
+  margin-left: 10px;
+  margin-top: 0.7%;
+}
+
+.Level_container {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 30%;
+  align-items: center;
+}
+
+.XP {
+  width: 70%;
+  background-color: #00ed34;
+}
+
+.XP_remaining {
+  width: 30%;
+  background-color: #000;
 }
