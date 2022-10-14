@@ -3,11 +3,11 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
-  border-top: 1px solid #00ed34;
+  border-top: 1px solid var(--mainGreen);
   justify-content: space-between;
   align-items: center;
   background-color: #006f18;
-  color: #00ed34;
+  color: var(--mainGreen);
   font-size: 22px;
 }
 
@@ -28,7 +28,7 @@
   display: flex;
   width: 65%;
   height: 50%;
-  border: 1px solid #00ed34;
+  border: 1px solid var(--mainGreen);
   /* padding-left: 10px; */
   margin-left: 10px;
   margin-top: 0.7%;
@@ -44,10 +44,10 @@
 
 .XP {
   width: 70%;
-  background-color: #00ed34;
+  background-color: var(--mainGreen);
 }
 
 .XP_remaining {
   width: 30%;
-  background-color: #000;
+  background-color: var(--backgroundColor);
 }

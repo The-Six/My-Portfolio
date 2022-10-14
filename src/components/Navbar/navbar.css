@@ -20,50 +20,50 @@
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  background-color: #000000;
+  background-color: var(--backgroundColor);
 }
 
 .intro_tab {
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid #00ed34;
-  background-color: #000000;
-  color: #00ed34;
+  border: 1px solid var(--mainGreen);
+  background-color: var(--backgroundColor);
+  color: var(--mainGreen);
 }
 
 .about_tab {
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid #00ed34;
-  background-color: #000000;
-  color: #00ed34;
+  border: 1px solid var(--mainGreen);
+  background-color: var(--backgroundColor);
+  color: var(--mainGreen);
 }
 
 .projects_tab {
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid #00ed34;
-  background-color: #000000;
-  color: #00ed34;
+  border: 1px solid var(--mainGreen);
+  background-color: var(--backgroundColor);
+  color: var(--mainGreen);
 }
 
 .skills_tab {
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid #00ed34;
-  background-color: #000000;
-  color: #00ed34;
+  border: 1px solid var(--mainGreen);
+  background-color: var(--backgroundColor);
+  color: var(--mainGreen);
 }
 
 .contact_tab {
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid #00ed34;
-  background-color: #000000;
-  color: #00ed34;
+  border: 1px solid var(--mainGreen);
+  background-color: var(--backgroundColor);
+  color: var(--mainGreen);
 }

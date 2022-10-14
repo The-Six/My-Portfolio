@@ -14,13 +14,13 @@
 
 .left_contactBar {
   height: 1px;
-  background-color: #00ed34;
+  background-color: var(--mainGreen);
   width: 40%;
 }
 
 .right_contactBar {
   height: 1px;
-  background-color: #00ed34;
+  background-color: var(--mainGreen);
   width: 40%;
 }
 
@@ -28,9 +28,9 @@
   display: flex;
   width: 20%;
   height: 100%;
-  border: 1px solid #00ed34;
+  border: 1px solid var(--mainGreen);
   justify-content: center;
   align-items: center;
-  color:#00ed34;
+  color: var(--mainGreen);
   font-weight: bold;
 }

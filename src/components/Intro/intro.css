@@ -14,7 +14,7 @@
 
 .left_introBar {
   height: 1px;
-  background-color: #00ed34;
+  background-color: var(--mainGreen);
   width: 40%;
 }
 
