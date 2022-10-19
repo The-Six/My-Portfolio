@@ -6,8 +6,16 @@ function Intro() {
     <div className="Intro">
       <div className="intro_box">
         <div className="left_introBar"></div>
-        <div className="intro_text">I N T R O</div>
+        <div className="intro_text">W E L C O M E</div>
         <div className="right_introBar"></div>
+      </div>
+      <div className="intro_textBox">
+        <div> 
+          <p></p>
+        </div>
+      </div>
+      <div>
+        
       </div>
     </div>
   );
