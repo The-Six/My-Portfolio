@@ -17,6 +17,7 @@ function App() {
   const [contact, setContact] = useState("contact_tab");
   return (
     <div className="App">
+      <div className="Scan"></div>
       <Navbar
         intro={intro}
         about={about}
@@ -34,7 +35,7 @@ function App() {
       {projects === "selector_tab" ? <Projects /> : <></>}
       {skills === "selector_tab" ? <Skills /> : <></>}
       {contact === "selector_tab" ? <Contact /> : <></>}
-      <Footer/>
+      <Footer />
     </div>
   );
 }

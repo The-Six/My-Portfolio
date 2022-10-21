@@ -10,13 +10,13 @@ function Intro() {
         <div className="right_introBar"></div>
       </div>
       <div className="intro_textBox">
-        <div> 
-          <p></p>
+         <div> 
+          <h1>My Name Is Ijaz Driscoll</h1>
+          <p>Full Stack Software Engineer</p>
+          <p>Based in London, UK.</p>
         </div>
       </div>
-      <div>
-        
-      </div>
+      <div className="vaultLogo"></div>
     </div>
   );
 }

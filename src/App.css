@@ -6,3 +6,76 @@
   background-color: var(--backgroundColor);
   color: white;
 }
+
+h1 {
+  animation-duration: 2s;
+  animation-name: strobe;
+  animation-iteration-count: infinite;
+  font-size: large;
+  background: -webkit-linear-gradient(rgba(0, 255, 0, 1), rgba(0, 255, 0, 0.7));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  animation-duration: 2s;
+  animation-name: strobe;
+  animation-iteration-count: infinite;
+  font-size: large;
+  background: -webkit-linear-gradient(rgba(0, 255, 0, 1), rgba(0, 255, 0, 0.7));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Scan {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  background-image: linear-gradient(transparent, var(--mainGreen));
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from {
+    top: -3%;
+  }
+  to {
+    top: 95%;
+  }
+}
+
+@keyframes strobe {
+  from {
+    background: -webkit-linear-gradient(
+      rgba(0, 255, 0, 1) 10%,
+      rgba(0, 255, 0, 0.5) 20%,
+      rgba(0, 255, 0, 1) 30%,
+      rgba(0, 255, 0, 0.5) 40%,
+      rgba(0, 255, 0, 1) 50%,
+      rgba(0, 255, 0, 0.5) 60%,
+      rgba(0, 255, 0, 1) 70%,
+      rgba(0, 255, 0, 0.5) 80%,
+      rgba(0, 255, 0, 1) 90%,
+      rgba(0, 255, 0, 0.5) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  to {
+    background: -webkit-linear-gradient(
+      rgba(0, 255, 0, 0.8) 10%,
+      rgba(0, 255, 0, 0.2) 20%,
+      rgba(0, 255, 0, 0.8) 30%,
+      rgba(0, 255, 0, 0.2) 40%,
+      rgba(0, 255, 0, 0.8) 50%,
+      rgba(0, 255, 0, 0.2) 60%,
+      rgba(0, 255, 0, 0.8) 70%,
+      rgba(0, 255, 0, 0.2) 80%,
+      rgba(0, 255, 0, 0.8) 90%,
+      rgba(0, 255, 0, 0.2) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
