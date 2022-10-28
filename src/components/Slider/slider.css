@@ -1,0 +1,46 @@
+.Slider {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.SliderContent {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.LeftSlide {
+  height: 70%;
+  width: 30%;
+}
+
+.CenterContainer {
+    /* border: 2px solid var(--mainGreen); */
+  height: 85%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.CenterAnchor {
+    height: 100%;
+    width: 100%;
+}
+.CenterImage {
+  height: 82.5%;
+  width: 100%;
+}
+
+.CenterSlideTxt {
+}
+
+.RightSlide {
+  height: 70%;
+  width: 30%;
+}
