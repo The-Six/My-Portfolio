@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+import Slider from "../Slider/slider.js"
 
 function Projects() {
   return (
@@ -9,6 +10,7 @@ function Projects() {
         <div className="projects_text">P R O J E C T S</div>
         <div className="right_projectsBar"></div>
       </div>
+      <div><Slider/></div>
     </div>
   );
 }
