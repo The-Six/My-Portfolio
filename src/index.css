@@ -13,6 +13,7 @@ code {
 }
 
 :root {
-  --mainGreen: #00ed34;
+  --mainGreen: #10c55c;
   --backgroundColor: #000000;
+  --secondaryGreen:  #00180b;
 }

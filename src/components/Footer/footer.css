@@ -6,7 +6,7 @@
   border-top: 1px solid var(--mainGreen);
   justify-content: space-between;
   align-items: center;
-  background-color: #006f18;
+  background-color: var(--secondaryGreen);
   color: var(--mainGreen);
   font-size: 22px;
 }
