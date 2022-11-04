@@ -1,6 +1,7 @@
 import { SliderData } from "./data.js";
 import "./slider.css";
 import React, { useState } from "react";
+import {IoIosArrowBack, IoIosArrowForward} from "react-icons/io";
 
 function Slider() {
   console.log(SliderData);
@@ -24,9 +25,10 @@ function Slider() {
   }
 
   return (
+    <section className="sliderContainer">
     <section className="Slider">
       <div className="sliderInbetween">
-        <button onClick={prevSlide}>PREVIOUS</button>
+        <IoIosArrowBack className="arrow" onClick={prevSlide}></IoIosArrowBack>
       </div>
       <div className="SliderContent">
         <img
@@ -47,7 +49,6 @@ function Slider() {
               src={SliderData[current].image}
               alt="current slide"
             />
-            {/* <p className="CenterSlideTxt">{SliderData[current].title}</p> */}
           </a>
         </div>
         <div className="sliderInbetweenInner"></div>
@@ -58,9 +59,11 @@ function Slider() {
         />
       </div>
       <div className="sliderInbetween">
-        <button onClick={nextSlide}>NEXT</button>
+        <IoIosArrowForward className="arrow" onClick={nextSlide}></IoIosArrowForward>
       </div>
     </section>
+       <p className="CenterSlideTxt">{SliderData[current].title}</p> 
+       </section>
   );
 }
 
