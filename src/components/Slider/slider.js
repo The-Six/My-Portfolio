@@ -25,39 +25,41 @@ function Slider() {
 
   return (
     <section className="Slider">
-      <button onClick={prevSlide}>PREVIOUS</button>
-      {/* {SliderData.map((slide, index) => {
-        return ( */}
-          <div className="SliderContent">
+      <div className="sliderInbetween">
+        <button onClick={prevSlide}>PREVIOUS</button>
+      </div>
+      <div className="SliderContent">
+        <img
+          className="LeftSlide"
+          src={SliderData[prev].image}
+          alt="previous slide"
+        />
+        <div className="sliderInbetweenInner"></div>
+        <div className="CenterContainer">
+          <a
+            href={SliderData[current].link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="CenterAnchor"
+          >
             <img
-              className="LeftSlide"
-              src={SliderData[prev].image}
-              alt="previous slide"
+              className="CenterImage"
+              src={SliderData[current].image}
+              alt="current slide"
             />
-            <div className="CenterContainer">
-              <a
-                href={SliderData[current].link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="CenterAnchor"
-              >
-                <img
-                  className="CenterImage"
-                  src={SliderData[current].image}
-                  alt="current slide"
-                />
-                <p className="CenterSlideTxt">{SliderData[current].title}</p>
-              </a>
-            </div>
-            <img
-              className="RightSlide"
-              src={SliderData[next].image}
-              alt="next slide"
-            />
-          </div>
-        {/* );
-      })} */}
-      <button onClick={nextSlide}>NEXT</button>
+            {/* <p className="CenterSlideTxt">{SliderData[current].title}</p> */}
+          </a>
+        </div>
+        <div className="sliderInbetweenInner"></div>
+        <img
+          className="RightSlide"
+          src={SliderData[next].image}
+          alt="next slide"
+        />
+      </div>
+      <div className="sliderInbetween">
+        <button onClick={nextSlide}>NEXT</button>
+      </div>
     </section>
   );
 }

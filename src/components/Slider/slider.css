@@ -1,5 +1,5 @@
 .Slider {
-  height: 40vh;
+  height: 20vh;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -10,37 +10,58 @@
 
 .SliderContent {
   height: 100%;
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 
 .LeftSlide {
-  height: 70%;
-  width: 30%;
+  height: 102%;
+  width: 20%;
+  border: 1px solid var(--mainGreen);
+  align-self: center;
+  z-index: 0;
 }
 
 .CenterContainer {
     /* border: 2px solid var(--mainGreen); */
-  height: 85%;
-  width: 30%;
+  height: 102%;
+  width: 20%;
   display: flex;
   flex-direction: column;
+  align-self: center;
+  z-index: 0;
 }
 .CenterAnchor {
     height: 100%;
     width: 100%;
 }
 .CenterImage {
-  height: 82.5%;
+  height: 100%;
   width: 100%;
+  border: 1px solid var(--mainGreen);
 }
 
 .CenterSlideTxt {
 }
-
+  
 .RightSlide {
-  height: 70%;
-  width: 30%;
+  height: 102%;
+  width: 20%;
+  border: 1px solid var(--mainGreen);
+  align-self: center;
+  z-index: 0;
+}
+
+.sliderInbetween {
+  width: 12.5%;
+  height: 100%;
+  background-color: green;
+}
+
+.sliderInbetweenInner {
+  height: 100%;
+  width: 20%;
+  background-color: green;
 }
