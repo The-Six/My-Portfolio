@@ -45,6 +45,7 @@
   border: 1px solid var(--mainGreen);
   color: var(--mainGreen);
   text-align: center;
+  border-radius: 25px;
 }
 
 .vaultLogo {

@@ -47,9 +47,18 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-radius: 25px;
 }
 
 .about_content {
   width: 80%;
   text-align: center;
+}
+
+.aboutImage {
+  width: 200px;
+  height: 200px;
+  background-image: url(../../../public/PlanesGreen.jpg);
+  background-size: cover;
+  border-radius: 25px;
 }

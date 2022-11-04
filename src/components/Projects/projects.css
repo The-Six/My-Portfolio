@@ -38,3 +38,12 @@
   color: var(--mainGreen);
   font-weight: bold;
 }
+
+.introImage {
+  background-image: url(https://gifimage.net/wp-content/uploads/2018/04/pip-boy-gif-3.gif);
+  width: 415px;
+  height: 250px;
+  background-size: cover;
+  border-radius: 25px;
+  display: block;
+}
