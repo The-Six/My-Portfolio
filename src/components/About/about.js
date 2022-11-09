@@ -12,8 +12,7 @@ function About() {
       <div className="aboutImage"></div>
       <div className="about_textBox">
         <p className="about_content">
-          I am a young and enthusiastic software engineer. Coding initially
-          began as a hobby but I began to see how pivotal software had become in
+         Coding initially began as a hobby but I began to see how pivotal software had become in
           our society, I believe it truly rules the world and I want to help
           shape it.
         </p>

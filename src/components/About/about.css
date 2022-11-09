@@ -40,8 +40,8 @@
 }
 
 .about_textBox {
-  height: 30%;
-  width: 35%;
+  height: 20%;
+  width: 28%;
   border: 1px solid var(--mainGreen);
   color: var(--mainGreen);
   display: flex;
@@ -52,7 +52,7 @@
 }
 
 .about_content {
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
