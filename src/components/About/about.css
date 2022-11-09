@@ -48,6 +48,7 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 25px;
+  background-color: var(--secondaryGreen);
 }
 
 .about_content {
