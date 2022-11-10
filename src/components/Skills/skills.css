@@ -34,3 +34,28 @@
   color: var(--mainGreen);
   font-weight: bold;
 }
+
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  height: 85%;
+  width: 100%;
+  border: 1px solid var(--mainGreen);
+}
+
+.skillsButtonContainer {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 15%;
+  border: 1px solid var(--mainGreen);
+  justify-content: space-evenly;
+}
+
+.skillsContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 85%;
+  border: 1px solid var(--mainGreen);
+}
