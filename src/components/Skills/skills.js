@@ -16,15 +16,24 @@ function Skills() {
       </div>
       <div className="skillsContainer">
         <div className="skillsButtonContainer">
-          <button onClick={() => setSectionDisplayed("techStk")}>
+          <button
+            className="skillsButton"
+            onClick={() => setSectionDisplayed("techStk")}
+          >
             Tech Stk
           </button>
-          <button onClick={() => setSectionDisplayed("skills")}>Skills</button>
+          <button
+            className="skillsButton"
+            onClick={() => setSectionDisplayed("skills")}
+          >
+            Skills
+          </button>
         </div>
-        <SkillsContent
-          className="skillsContent"
-          sectionDisplayed={sectionDisplayed}
-        />
+        <div className="skillsContent">
+          <SkillsContent
+            sectionDisplayed={sectionDisplayed}
+          />
+        </div>
       </div>
     </div>
     // </>
