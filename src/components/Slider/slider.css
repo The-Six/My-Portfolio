@@ -1,6 +1,15 @@
-.Slider {
-  height: 20vh;
+.sliderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--mainGreen);
   width: 100vw;
+  height: 20vh;
+}
+
+.Slider {
+  height: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -13,7 +22,6 @@
   width: 75%;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
 }
 
 .LeftSlide {
@@ -25,7 +33,6 @@
 }
 
 .CenterContainer {
-    /* border: 2px solid var(--mainGreen); */
   height: 102%;
   width: 20%;
   display: flex;
@@ -34,8 +41,8 @@
   z-index: 0;
 }
 .CenterAnchor {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 .CenterImage {
   height: 100%;
@@ -43,9 +50,6 @@
   border: 2px solid var(--mainGreen);
 }
 
-.CenterSlideTxt {
-}
-  
 .RightSlide {
   height: 102%;
   width: 20%;
@@ -74,9 +78,39 @@
   font-size: 50px;
 }
 
-.sliderContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: var(--mainGreen);
+@media screen and (orientation: portrait) {
+  .sliderContainer {
+    width: 100vw;
+    height: 15vh;
+  }
+
+  .sliderInbetween {
+    width: 6%;
+    height: 100%;
+  }
+
+  .sliderInbetweenInner {
+    height: 100%;
+    width: 10%;
+  }
+
+  .SliderContent {
+    height: 100%;
+    width: 88%;
+  }
+
+  .RightSlide {
+    height: 102%;
+    width: 26.6%;
+  }
+
+  .LeftSlide {
+    height: 102%;
+    width: 26.6%;
+  }
+
+  .CenterContainer {
+    height: 102%;
+    width: 26.6%;
+  }
 }

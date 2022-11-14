@@ -33,9 +33,9 @@ function Contact() {
 
           <textarea
             placeholder="Your Message"
-            className="form-control"
+            className="form-control text_area"
             name="message"
-            rows="5"
+            rows="6"
             required
           ></textarea>
           <button type="submit" className="submit-button">

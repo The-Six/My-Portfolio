@@ -76,4 +76,9 @@
   .right_aboutBar {
     width: 25%;
   }
+
+  .about_textBox {
+    height: 30%;
+    width: 80%;
+  }
 }
