@@ -47,3 +47,17 @@
   border-radius: 25px;
   display: block;
 }
+
+@media screen and (orientation: portrait) {
+  .projects_text {
+    width: 50%;
+  }
+
+  .left_projectsBar {
+    width: 25%;
+  }
+  
+  .right_projectsBar {
+    width: 25%;
+  }
+}

@@ -30,6 +30,7 @@
   border: 1px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
+  padding: 1px 1px 1px 1px;
 }
 
 .about_tab {
@@ -39,6 +40,7 @@
   border: 1px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
+  padding: 1px 1px 1px 1px;
 }
 
 .projects_tab {
@@ -48,6 +50,7 @@
   border: 1px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
+  padding: 1px 1px 1px 1px;
 }
 
 .skills_tab {
@@ -57,6 +60,7 @@
   border: 1px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
+  padding: 1px 1px 1px 1px;
 }
 
 .contact_tab {
@@ -66,5 +70,43 @@
   border: 1px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
+  padding: 1px 1px 1px 1px;
+}
+
+@media screen and (orientation: portrait) {
+  .inbetween_box {
+    height: 50%;
+    width: 5vw;
+  }
+
+  .selector_tab {
+    height: 50%;
+    width: 14vw;
+  }
+  
+  .intro_tab {
+    height: 50%;
+    width: 14vw;
+  }
+  
+  .about_tab {
+    height: 50%;
+    width: 14vw;
+  }
+  
+  .projects_tab {
+    height: 50%;
+    width: 14vw;
+  }
+  
+  .skills_tab {
+    height: 50%;
+    width: 14vw;
+  }
+  
+  .contact_tab {
+    height: 50%;
+    width: 14vw;
+  }
 }
 

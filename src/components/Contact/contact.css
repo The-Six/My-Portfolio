@@ -119,3 +119,17 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (orientation: portrait) {
+  .contact_text {
+    width: 50%;
+  }
+
+  .left_contactBar {
+    width: 25%;
+  }
+  
+  .right_contactBar {
+    width: 25%;
+  }
+}

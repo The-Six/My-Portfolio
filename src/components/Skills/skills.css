@@ -69,3 +69,17 @@
   color: var(--mainGreen);
 
 }
+
+@media screen and (orientation: portrait) {
+  .skills_text {
+    width: 50%;
+  }
+
+  .left_skillsBar {
+    width: 25%;
+  }
+  
+  .right_skillsBar {
+    width: 25%;
+  }
+}

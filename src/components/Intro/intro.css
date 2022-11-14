@@ -56,3 +56,17 @@
   width: 256px;
   height: 171px;
 }
+
+@media screen and (orientation: portrait) {
+  .intro_text {
+    width: 50%;
+  }
+
+  .left_introBar {
+    width: 25%;
+  }
+  
+  .right_introBar {
+    width: 25%;
+  }
+}

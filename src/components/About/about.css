@@ -63,3 +63,17 @@
   background-size: cover;
   border-radius: 25px;
 }
+
+@media screen and (orientation: portrait) {
+  .about_text {
+    width: 50%;
+  }
+
+  .left_aboutBar {
+    width: 25%;
+  }
+  
+  .right_aboutBar {
+    width: 25%;
+  }
+}
