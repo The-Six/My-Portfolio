@@ -82,4 +82,29 @@
   .right_skillsBar {
     width: 25%;
   }
+
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .skillsButtonContainer {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+  }
+
+  .skillsContent {
+    height: 75%;
+    width: 100%;
+  }
+
+  .skillsButton {
+    width: 20%;
+    height: 100%;  
+  }
 }

@@ -50,3 +50,10 @@
     height: 20%;
     width: auto;
 }
+
+@media screen and (orientation: portrait) {
+    .Container {
+        width: 90%;
+        height: 100%;
+    }
+}
