@@ -51,10 +51,12 @@
 
 .vaultLogo {
   background-image: url(../../../public/Vault-Tec_Logo.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 256px;
-  height: 171px;
+  width: 32%;
+  height: 35.5%;
+  /* width: 256px;
+  height: 171px; */
 }
 
 @media screen and (orientation: portrait) {
@@ -82,9 +84,9 @@
   
   .vaultLogo {
     background-image: url(../../../public/Vault-Tec_Logo.png);
-    background-size: contain;
+    /* background-size: contain; */
     background-repeat: no-repeat;
     width: 80%;
-    height: 30%;
+    height: 31%;
   }
 }
