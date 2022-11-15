@@ -38,7 +38,7 @@
 .skillsContainer {
   display: flex;
   flex-direction: row;
-  height: 85%;
+  height: 80%;
   width: 100%;
   /* border: 1px solid var(--mainGreen); */
 }

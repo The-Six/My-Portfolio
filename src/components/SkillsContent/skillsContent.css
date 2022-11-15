@@ -1,22 +1,26 @@
 .Container {
-    width: 30%;
-    height: 75%;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .pipMan {
     background-image: url(../../../public/PipMan.png);
     width: 100%;
-    height: 70%;
+    height: 90%;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .TopSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 20%;
+    height: 10%;
     width: 100%;
-    align-items: center;
 }
 
 .MidSection {
@@ -24,16 +28,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 20%;
+    height: 15%;
     width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .BottomSection {
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     flex-direction: row;
+    padding-bottom: 31%; 
+    padding-top: 24%;
     justify-content: space-between;
-    height: 80%;
+    height: 10%;
     width: 100%;
 }
 
@@ -53,7 +61,28 @@
 
 @media screen and (orientation: portrait) {
     .Container {
-        width: 90%;
-        height: 100%;
+        width: 260px;
+        height: 300px;
+    }
+
+    .logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .BottomSection {
+        /* align-items: center; */
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 31%; 
+        padding-top: 24%;
+        justify-content: space-between;
+        height: 15%;
+        width: 100%;
+    }
+
+
+    .TopSection {
+        height: 15%;
     }
 }

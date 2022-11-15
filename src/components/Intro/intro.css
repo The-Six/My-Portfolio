@@ -51,10 +51,11 @@
 
 .vaultLogo {
   background-image: url(../../../public/Vault-Tec_Logo.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 32%;
+  width: 22%;
   height: 35.5%;
+  background-position: center;
   /* width: 256px;
   height: 171px; */
 }
@@ -86,7 +87,7 @@
     background-image: url(../../../public/Vault-Tec_Logo.png);
     /* background-size: contain; */
     background-repeat: no-repeat;
-    width: 80%;
-    height: 31%;
+    width: 52%;
+    height: 20%;
   }
 }
