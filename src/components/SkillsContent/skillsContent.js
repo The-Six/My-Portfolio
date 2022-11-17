@@ -9,16 +9,26 @@ function SkillsContent({ sectionDisplayed }) {
     return (
       <div className="Container">
         <div className="TopSection">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank" rel="noopener noreferrer">
         <IoLogoJavascript className="logo"/>
+        </a>
         </div>
         <div className="pipMan">
           <div className="MidSection">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank" rel="noopener noreferrer">
           <IoLogoHtml5 className="logo"/>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank" rel="noopener noreferrer">
           <IoLogoCss3 className="logo"/>
+          </a>
           </div>
           <div className="BottomSection">
+          <a href="https://reactjs.org/" target="blank" rel="noopener noreferrer">
           <FaReact className="logo"/>
+          </a>
+          <a href="https://nextjs.org/" target="blank" rel="noopener noreferrer">
           <SiNextdotjs className="logo"/>
+          </a>
           </div>
         </div>
       </div>
@@ -26,16 +36,26 @@ function SkillsContent({ sectionDisplayed }) {
   } else if (sectionDisplayed === "skills")
     return <div className="Container">
     <div className="TopSection">
+    <a href="hhttps://www.canva.com/about/" target="blank" rel="noopener noreferrer">
     <SiCanva className="logo"/>
+    </a>
     </div>
     <div className="pipMan">
       <div className="MidSection">
+      <a href="https://trello.com/en/tour" target="blank" rel="noopener noreferrer">
       <SiTrello className="logo"/>
+      </a>
+      <a href="https://slack.com/intl/en-gb" target="blank" rel="noopener noreferrer">
       <SiSlack className="logo"/>
+      </a>
       </div>
       <div className="BottomSection">
+      <a href="https://www.atlassian.com/software/jira" target="blank" rel="noopener noreferrer">
       <SiJirasoftware className="logo"/>
+      </a>
+      <a href="https://www.microsoft.com/en-gb/microsoft-teams/group-chat-software" target="blank" rel="noopener noreferrer">
       <SiMicrosoftteams className="logo"/>
+      </a>
       </div>
     </div>
   </div>
