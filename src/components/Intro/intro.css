@@ -17,13 +17,13 @@
 }
 
 .left_introBar {
-  height: 1px;
+  height: 3px;
   background-color: var(--mainGreen);
   width: 40%;
 }
 
 .right_introBar {
-  height: 1px;
+  height: 3px;
   background-color: var(--mainGreen);
   width: 40%;
 }
@@ -32,7 +32,7 @@
   display: flex;
   width: 20%;
   height: 50%;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   justify-content: center;
   align-items: center;
   color: var(--mainGreen);
@@ -42,7 +42,7 @@
 .intro_textBox {
   height: 30%;
   width: 25%;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   color: var(--mainGreen);
   text-align: center;
   border-radius: 25px;

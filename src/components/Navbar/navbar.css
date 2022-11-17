@@ -7,16 +7,16 @@
 }
 
 .inbetween_box {
-  border-bottom: 1px solid var(--mainGreen);
+  border-bottom: 3px solid var(--mainGreen);
   height: 50%;
   align-self: end;
   width: 9.1vw;
 }
 
 .selector_tab {
-  border-left: 1px solid var(--mainGreen);
-  border-top: 1px solid var(--mainGreen);
-  border-right: 1px solid var(--mainGreen);
+  border-left: 3px solid var(--mainGreen);
+  border-top: 3px solid var(--mainGreen);
+  border-right: 3px solid var(--mainGreen);
   height: 50%;
   align-self: end;
   width: 9.1vw;
@@ -27,7 +27,7 @@
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
@@ -37,7 +37,7 @@
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
@@ -47,7 +47,7 @@
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
@@ -57,7 +57,7 @@
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
@@ -67,7 +67,7 @@
   height: 50%;
   align-self: end;
   width: 9.1vw;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;

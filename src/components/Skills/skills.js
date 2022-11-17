@@ -20,7 +20,7 @@ function Skills() {
             className="skillsButton"
             onClick={() => setSectionDisplayed("techStk")}
           >
-            Tech Stk
+            Tech STK
           </button>
           <button
             className="skillsButton"

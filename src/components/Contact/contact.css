@@ -13,13 +13,13 @@
 }
 
 .left_contactBar {
-  height: 1px;
+  height: 3px;
   background-color: var(--mainGreen);
   width: 40%;
 }
 
 .right_contactBar {
-  height: 1px;
+  height: 3px;
   background-color: var(--mainGreen);
   width: 40%;
 }
@@ -28,7 +28,7 @@
   display: flex;
   width: 20%;
   height: 50%;
-  border: 1px solid var(--mainGreen);
+  border: 3px solid var(--mainGreen);
   justify-content: center;
   align-items: center;
   color: var(--mainGreen);
@@ -56,10 +56,10 @@
 .form-control {
   color: var(--mainGreen);
   background-color: var(--secondaryGreen);
-  border-color: var(--mainGreen);
   border-radius: 25px;
   text-align: center;
   width: 100%;
+  border: 3px solid var(--mainGreen);
 }
 
 ::placeholder {
@@ -79,10 +79,10 @@
 .submit-button {
   color: var(--mainGreen);
   background-color: var(--secondaryGreen);
-  border-color: var(--mainGreen);
   border-radius: 25px;
   text-align: center;
   width: 50%;
+  border: 3px solid var(--mainGreen);
   
 }
 
