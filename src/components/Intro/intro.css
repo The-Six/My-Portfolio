@@ -39,8 +39,27 @@
   font-weight: bold;
 }
 
-.intro_textBox {
+.introCenterSection {
+  width: 100%;
   height: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.spacerSection {
+  width: 37.5%;
+  height: 100%;
+  border: 3px solid var(--mainGreen);
+}
+
+.quoteSection {
+  width: 37.5%;
+  height: 100%;
+  border: 3px solid var(--mainGreen);
+}
+
+.intro_textBox {
+  height: 100%;
   width: 25%;
   border: 3px solid var(--mainGreen);
   color: var(--mainGreen);

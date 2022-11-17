@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
 .Skills {
   width: 100vw;
   height: 80vh;
@@ -67,7 +69,8 @@
   height: 10%;
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
-
+  text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
 }
 
 @media screen and (orientation: portrait) {

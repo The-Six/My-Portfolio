@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
 .Navbar {
   display: flex;
   flex-direction: row;
@@ -31,6 +33,8 @@
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
+  text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
 }
 
 .about_tab {
@@ -41,6 +45,8 @@
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
+  text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
 }
 
 .projects_tab {
@@ -51,6 +57,8 @@
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
+  text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
 }
 
 .skills_tab {
@@ -61,6 +69,8 @@
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
+  text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
 }
 
 .contact_tab {
@@ -71,7 +81,10 @@
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   padding: 1px 1px 1px 1px;
+  text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
 }
+
 
 @media screen and (orientation: portrait) {
   .inbetween_box {

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
 .App {
   display: flex;
   flex-direction: column;
@@ -6,7 +8,9 @@
   background-color: var(--backgroundColor);
   color: white;
   text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
 }
+
 
 .Scan {
   position: absolute;
