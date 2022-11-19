@@ -27,9 +27,6 @@
   color: transparent;
 }
 
-button:focus {
-  border-bottom: 3px solid var(--backgroundColor);
-}
 
 .intro_tab {
   height: 50%;
