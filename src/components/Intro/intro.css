@@ -160,13 +160,22 @@
   .intro_textBox {
     height: 40%;
     width: 100%;
-    border: 1px solid var(--mainGreen);
+    border: 3px solid var(--mainGreen);
     color: var(--mainGreen);
     text-align: center;
     border-radius: 25px;
     background-color: var(--secondaryGreen);
+    margin-bottom: 10%;
   }
   
+  h1 {
+    font-size: medium;
+  }
+
+  p { 
+    font-size: small;
+  }
+
   .vaultLogo {
     background-image: url(../../../public/Vault-Tec_Logo.png);
     /* background-size: contain; */
@@ -180,12 +189,12 @@
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   
   .spacerSection {
-    width: 0%;
-    height: 0%;
+    width: 0;
+    height: 0;
     /* border: 3px solid var(--mainGreen); */
   }
   
@@ -200,18 +209,17 @@
   /*this is the start of the texting effect*/
   .textContainer {
     height: 100%;
-    width: 63%;
+    width: 80%;
     /* border: 3px solid var(--mainGreen); */
     position: relative;
     /* font-family: Consolas, monospace; */
   }
 
-  /* .typing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .typing {
+    height: 100%;
+    width: 100%;
     text-align: center;
-  } */
+  }
 
   .textLine {
     text-align: center;
