@@ -12,21 +12,30 @@ function About() {
       <div className="aboutCenterSection">
         <div className="aboutSpacerSection"></div>
         <div className="aboutImageContainer">
-        <div className="aboutImage"></div>
+          <div className="aboutImage"></div>
         </div>
         <div className="aboutQuoteSection">
           <div className="aboutTextContainer">
-            <p class="aboutTyping">
-              <p className="aboutTextLine">"It's still the same old story</p>
-              <p className="aboutTextLine">A fight for love and glory</p>
-              <p className="aboutTextLine">A case of do or die...</p>
-            </p>
+            <a
+              className="aboutQuoteAnchor"
+              href="https://www.youtube.com/watch?v=jOWer47swn8"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              <p class="aboutTyping">
+                <p className="aboutTextLine">
+                  The world will always welcome lovers
+                </p>
+                <p className="aboutTextLine">As time goes by."</p>
+                <p className="aboutTextLine">--Vera Lynn</p>
+              </p>
 
-            <div class="aboutHiders">
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-            </div>
+              <div class="aboutHiders">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

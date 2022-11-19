@@ -94,10 +94,16 @@
 /*this is the start of the texting effect*/
 .aboutTextContainer {
   height: 30%;
-  width: 60%;
+  width: 55%;
   /* border: 3px solid var(--mainGreen); */
   position: relative;
   /* font-family: Consolas, monospace; */
+}
+
+.aboutQuoteAnchor {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
 }
 
 @keyframes aboutTyping {
@@ -115,6 +121,7 @@
   margin: 0;
   z-index: 1;
   color: var(--mainGreen);
+  text-shadow: none;
 }
 
 .aboutTextLine {
@@ -131,13 +138,15 @@
 
 .aboutHiders p {
   position: relative;
+  z-index: 2;
   clear: both;
   margin: 0;
   float: right; /* makes animation go left-to-right */
   width: 0; /* graceful degradation: if animation doesn't work, these are invisible by default */
   background: var(--backgroundColor); /* same as page background */
   animation: aboutTyping 2s steps(30, end);
-  animation-fill-mode: both; /* load first keyframe on page load, leave on last frame at end */
+  animation-fill-mode: both; 
+  /* load first keyframe on page load, leave on last frame at end */
 }
 
 .aboutHiders p:nth-child(2) {
