@@ -39,7 +39,7 @@ function Contact() {
             required
           ></textarea>
           <button type="submit" className="submit-button">
-            Submit Form
+            Submit
           </button>
         </form>
         <div className="logo-container">
