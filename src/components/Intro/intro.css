@@ -140,8 +140,6 @@
   width: 22%;
   height: 35.5%;
   background-position: center;
-  /* width: 256px;
-  height: 171px; */
 }
 
 @media screen and (orientation: portrait) {
@@ -178,7 +176,6 @@
 
   .vaultLogo {
     background-image: url(../../../public/Vault-Tec_Logo.png);
-    /* background-size: contain; */
     background-repeat: no-repeat;
     width: 52%;
     height: 20%;
@@ -189,30 +186,25 @@
     height: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
   }
   
   .spacerSection {
     width: 0;
     height: 0;
-    /* border: 3px solid var(--mainGreen); */
   }
   
   .quoteSection {
     width: 100%;
     height: 25%;
-    /* border: 3px solid var(--mainGreen); */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /*this is the start of the texting effect*/
+
   .textContainer {
     height: 100%;
     width: 80%;
-    /* border: 3px solid var(--mainGreen); */
     position: relative;
-    /* font-family: Consolas, monospace; */
   }
 
   .typing {
