@@ -94,10 +94,10 @@
 /*this is the start of the texting effect*/
 .aboutTextContainer {
   height: 30%;
+  /*change the width depending on the quote*/
   width: 55%;
   /* border: 3px solid var(--mainGreen); */
   position: relative;
-  /* font-family: Consolas, monospace; */
 }
 
 .aboutQuoteAnchor {
@@ -132,7 +132,8 @@
   margin: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  /*change the width depending on the quote*/
+  width: 80%;
   z-index: 2;
 }
 

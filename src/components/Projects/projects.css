@@ -60,4 +60,9 @@
   .right_projectsBar {
     width: 25%;
   }
+
+  .projectsImage {
+    width: 332px;
+    height: 200px;
+  }
 }

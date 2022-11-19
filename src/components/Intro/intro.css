@@ -63,10 +63,10 @@
 /*this is the start of the texting effect*/
 .textContainer {
   height: 30%;
+  /*change the width depending on the quote*/
   width: 45%;
   /* border: 3px solid var(--mainGreen); */
   position: relative;
-  /* font-family: Consolas, monospace; */
 }
 
 @keyframes typing {
@@ -92,7 +92,8 @@
   margin: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  /*change the width depending on the quote*/
+  width: 75%;
   z-index: 2;
 }
 
