@@ -218,4 +218,9 @@
   .textLine {
     text-align: center;
   }
+
+  .hiders {
+    /*change the width depending on the quote*/
+    width: 100%;
+  }
 }

@@ -226,4 +226,9 @@
   .aboutTextLine {
     text-align: center;
   }
+
+  .aboutHiders {
+    /*change the width depending on the quote*/
+    width: 100%;
+  }
 }
