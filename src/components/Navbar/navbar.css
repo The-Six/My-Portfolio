@@ -19,6 +19,7 @@
   border-left: 3px solid var(--mainGreen);
   border-top: 3px solid var(--mainGreen);
   border-right: 3px solid var(--mainGreen);
+  border-bottom: 3px solid var(--backgroundColor);
   height: 50%;
   align-self: end;
   width: 9.1vw;
