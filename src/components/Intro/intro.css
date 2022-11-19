@@ -49,14 +49,79 @@
 .spacerSection {
   width: 37.5%;
   height: 100%;
-  border: 3px solid var(--mainGreen);
+  /* border: 3px solid var(--mainGreen); */
 }
 
 .quoteSection {
   width: 37.5%;
   height: 100%;
-  border: 3px solid var(--mainGreen);
+  /* border: 3px solid var(--mainGreen); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+/*this is the start of the texting effect*/
+.textContainer {
+  height: 30%;
+  width: 60%;
+  /* border: 3px solid var(--mainGreen); */
+  position: relative;
+  /* font-family: Consolas, monospace; */
+}
+
+@keyframes typing {
+  from { width: 100% }
+  to { width: 0 }
+  
+}
+
+.typing {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  z-index: 1;
+  color: var(--mainGreen);
+}
+
+.textLine {
+  margin: 0;
+}
+
+.hiders {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.hiders p {
+  position: relative; 
+  clear: both; 
+  margin: 0;
+  float: right; /* makes animation go left-to-right */
+  width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
+  background: var(--backgroundColor); /* same as page background */
+  animation: typing 2s steps(30, end);
+  animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
+}
+  
+.hiders p:nth-child(2) {
+  animation-delay: 2s;
+}
+.hiders p:nth-child(3) {
+  animation-delay: 4s;
+}
+.hiders p:nth-child(4) {
+  animation-delay: 6s;
+}
+.hiders p:nth-child(5) {
+  animation-delay: 8s;
+}
+
+/*this is the end of the texting effect*/
+
+
 
 .intro_textBox {
   height: 100%;
@@ -93,8 +158,8 @@
   }
 
   .intro_textBox {
-    height: 30%;
-    width: 80%;
+    height: 40%;
+    width: 100%;
     border: 1px solid var(--mainGreen);
     color: var(--mainGreen);
     text-align: center;
@@ -108,5 +173,47 @@
     background-repeat: no-repeat;
     width: 52%;
     height: 20%;
+  }
+
+  .introCenterSection {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .spacerSection {
+    width: 0%;
+    height: 0%;
+    /* border: 3px solid var(--mainGreen); */
+  }
+  
+  .quoteSection {
+    width: 100%;
+    height: 25%;
+    /* border: 3px solid var(--mainGreen); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*this is the start of the texting effect*/
+  .textContainer {
+    height: 100%;
+    width: 63%;
+    /* border: 3px solid var(--mainGreen); */
+    position: relative;
+    /* font-family: Consolas, monospace; */
+  }
+
+  /* .typing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
+
+  .textLine {
+    text-align: center;
   }
 }
