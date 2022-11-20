@@ -36,7 +36,7 @@ function SkillsContent({ sectionDisplayed }) {
   } else if (sectionDisplayed === "skills")
     return <div className="Container">
     <div className="TopSection">
-    <a href="hhttps://www.canva.com/about/" target="blank" rel="noopener noreferrer">
+    <a href="https://www.canva.com/about/" target="blank" rel="noopener noreferrer">
     <SiCanva className="logo"/>
     </a>
     </div>
