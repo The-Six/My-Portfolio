@@ -12,7 +12,7 @@ function Contact() {
        <div className="container">
         <form
           target="_blank"
-          action="https://formsubmit.co/3b9a8c5d407e0100f9b11e15ea083dff"
+          action="https://formsubmit.co/ijazdriscoll@gmail.com"
           method="POST"
           className="form-content"
         >
