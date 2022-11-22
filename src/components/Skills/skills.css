@@ -63,8 +63,17 @@
   justify-content: center;
 }
 
-.skillsButton {
+.skillsButton:focus {
   border: 3px solid var(--mainGreen);
+  width: 50%;
+  height: 10%;
+  background-color: var(--backgroundColor);
+  color: var(--mainGreen);
+  text-shadow: 0 0 8px green;
+  font-family: 'VT323', cursive;
+}
+
+.skillsButton {
   width: 50%;
   height: 10%;
   background-color: var(--backgroundColor);
