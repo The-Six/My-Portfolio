@@ -8,12 +8,12 @@ function SkillsContent({ sectionDisplayed }) {
   if (sectionDisplayed === "techStk") {
     return (
       <div className="Container">
+        {/* <div className="pipMan"> */}
         <div className="TopSection">
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank" rel="noopener noreferrer">
         <IoLogoJavascript className="logo"/>
         </a>
         </div>
-        <div className="pipMan">
           <div className="MidSection">
           <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank" rel="noopener noreferrer">
           <IoLogoHtml5 className="logo"/>
@@ -30,7 +30,7 @@ function SkillsContent({ sectionDisplayed }) {
           <SiNextdotjs className="logo"/>
           </a>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   } else if (sectionDisplayed === "skills")
@@ -40,7 +40,7 @@ function SkillsContent({ sectionDisplayed }) {
     <SiCanva className="logo"/>
     </a>
     </div>
-    <div className="pipMan">
+
       <div className="MidSection">
       <a href="https://trello.com/en/tour" target="blank" rel="noopener noreferrer">
       <SiTrello className="logo"/>
@@ -57,7 +57,7 @@ function SkillsContent({ sectionDisplayed }) {
       <SiMicrosoftteams className="logo"/>
       </a>
       </div>
-    </div>
+    
   </div>
 }
 

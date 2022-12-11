@@ -5,7 +5,8 @@ import SkillsContent from "../SkillsContent/skillsContent";
 
 function Skills() {
   const [sectionDisplayed, setSectionDisplayed] = useState("techStk");
-
+  const [activeButton, setActiveButton] = useState("skillsButtonActive")
+  const [unActiveButton, setUnActiveButton] = useState("skillsButton")
   return (
     // <>
     <div className="Skills">
@@ -17,14 +18,14 @@ function Skills() {
       <div className="skillsContainer">
         <div className="skillsButtonContainer">
           <button
-            className="skillsButton"
-            onClick={() => setSectionDisplayed("techStk")}
+            className={activeButton}
+            onClick={() => {setSectionDisplayed("techStk"); setActiveButton("skillsButtonActive"); setUnActiveButton("skillsButton")}}
           >
             Tech Stk
           </button>
           <button
-            className="skillsButton"
-            onClick={() => setSectionDisplayed("skills")}
+            className={unActiveButton}
+            onClick={() => {setSectionDisplayed("skills"); setActiveButton("skillsButton"); setUnActiveButton("skillsButtonActive")}}
           >
             Skills
           </button>

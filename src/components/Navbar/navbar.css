@@ -38,6 +38,7 @@
   padding: 1px 1px 1px 1px;
   text-shadow: 0 0 8px green;
   font-family: 'VT323', cursive;
+  cursor: pointer;
 }
 
 .about_tab {
@@ -50,6 +51,7 @@
   padding: 1px 1px 1px 1px;
   text-shadow: 0 0 8px green;
   font-family: 'VT323', cursive;
+  cursor: pointer;
 }
 
 .projects_tab {
@@ -62,6 +64,7 @@
   padding: 1px 1px 1px 1px;
   text-shadow: 0 0 8px green;
   font-family: 'VT323', cursive;
+  cursor: pointer;
 }
 
 .skills_tab {
@@ -74,6 +77,7 @@
   padding: 1px 1px 1px 1px;
   text-shadow: 0 0 8px green;
   font-family: 'VT323', cursive;
+  cursor: pointer;
 }
 
 .contact_tab {
@@ -86,6 +90,7 @@
   padding: 1px 1px 1px 1px;
   text-shadow: 0 0 8px green;
   font-family: 'VT323', cursive;
+  cursor: pointer;
 }
 
 

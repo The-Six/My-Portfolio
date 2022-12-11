@@ -1,63 +1,63 @@
+
 .Container {
-    width: 500px;
-    height: 600px;
+    width: 50%;
+    height: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.pipMan {
-    background-image: url(../../../public/PipMan.png);
-    width: 100%;
-    height: 90%;
-    background-size: cover;
+    background-image: url(../../../public/green_gif.gif);
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 .TopSection {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 10%;
+    height: 20%;
     width: 100%;
+    align-items: center;
 }
 
 .MidSection {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 15%;
+    height: 20%;
     width: 100%;
     padding-top: 10%;
-    padding-bottom: 10%;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
 }
 
 .BottomSection {
-    /* align-items: center; */
+    align-items: center;
     display: flex;
     flex-direction: row;
-    padding-bottom: 31%; 
-    padding-top: 24%;
-    justify-content: space-between;
-    height: 10%;
+    /* padding-bottom: 31%;  */
+    padding-top: 20%;
+    justify-content: space-around;
+    height: 20%;
     width: 100%;
+    
 }
 
 .logo {
     color: var(--mainGreen);
-    background-color: var(--secondaryGreen);
+    background-color: transparent;
     height: 50px;
     width: 50px;
 }
 
-.bottomLogo {
+/* .bottomLogo {
     color: var(--mainGreen);
     background-color: var(--secondaryGreen);
     height: 20%;
     width: auto;
-}
+} */
 
 @media screen and (orientation: portrait) {
     .Container {
