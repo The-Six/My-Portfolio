@@ -93,7 +93,7 @@
   position: absolute;
   top: 0;
   /*change the width depending on the quote*/
-  width: 75%;
+  width: 100%;
   z-index: 2;
 }
 
