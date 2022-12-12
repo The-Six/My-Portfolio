@@ -41,9 +41,9 @@ function About() {
       </div>
       <div className="about_textBox">
         <p className="about_content">
-          Coding initially began as a hobby but I began to see how pivotal
-          software had become in our society, I believe it truly rules the world
-          and I want to help shape it.
+          I am a natural problem solver with a keen interest in our symbiotic
+          relationship with technology. Programming has given me the tools to
+          build a tangible bridge between the two.
         </p>
       </div>
     </div>
