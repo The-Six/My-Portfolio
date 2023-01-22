@@ -4,7 +4,7 @@ import "./footer.css"
 function Footer() {
   return (
     <div className="Footer">
-      <div className="Year">YR 20/22</div>
+      <div className="Year">YR 20/23</div>
       <div className="Level_container">
         <div>LEVEL 10</div>
         <div className="Level">
