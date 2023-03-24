@@ -18,16 +18,16 @@ function About() {
           <div className="aboutTextContainer">
             <a
               className="aboutQuoteAnchor"
-              href="https://www.youtube.com/watch?v=jOWer47swn8"
+              href="https://www.youtube.com/watch?v=dJQ2Y_V0mQQ"
               target="blank"
               rel="noopener noreferrer"
             >
               <p class="aboutTyping">
                 <p className="aboutTextLine">
-                  The world will always welcome lovers
+                3. If you graph these numbers, patterns emerge. 
                 </p>
-                <p className="aboutTextLine">As time goes by."</p>
-                <p className="aboutTextLine">--Vera Lynn</p>
+                <p className="aboutTextLine">Therefore: There are patterns everywhere in nature."</p>
+                <p className="aboutTextLine">&nbsp;—&nbsp;𝝅</p>
               </p>
 
               <div class="aboutHiders">

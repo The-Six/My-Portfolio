@@ -19,9 +19,9 @@ function Intro() {
         <div className="quoteSection">
           <div className="textContainer">
             <p class="typing">
-              <p className="textLine">"It's still the same old story</p>
-              <p className="textLine">A fight for love and glory</p> 
-              <p className="textLine">A case of do or die...</p>
+              <p className="textLine">"1. Mathematics is the language of nature.</p>
+              <p className="textLine">2. Everything around us can be represented and understood through numbers.</p> 
+              
             </p>
 
             <div class="hiders">
