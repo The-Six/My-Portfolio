@@ -19,12 +19,13 @@ function Intro() {
         <div className="quoteSection">
           <div className="textContainer">
             <p class="typing">
-              <p className="textLine">"1. Mathematics is the language of nature.</p>
-              <p className="textLine">2. Everything around us can be represented and understood through numbers.</p> 
+              <p className="textLine">"1. Mathematics is the language of nature. 2. Everything around us can be represented and understood through numbers.</p>
+              {/* <p className="textLine">2. Everything around us can be represented and understood through numbers.</p>  */}
               
             </p>
 
             <div class="hiders">
+              <p>&nbsp;</p>
               <p>&nbsp;</p>
               <p>&nbsp;</p>
               <p>&nbsp;</p>
