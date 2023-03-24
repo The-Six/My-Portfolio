@@ -26,8 +26,7 @@ function About() {
                 <p className="aboutTextLine">
                 3. If you graph these numbers, patterns emerge. Therefore: There are patterns everywhere in nature." 
                 </p>
-                {/* <p className="aboutTextLine">Therefore: There are patterns everywhere in nature."</p> */}
-                <p className="aboutTextLine">&nbsp;—&nbsp;𝝅</p>
+                <p className="aboutTextLine">—𝝅</p>
               </p>
 
               <div class="aboutHiders">
