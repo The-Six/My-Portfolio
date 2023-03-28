@@ -40,9 +40,9 @@
 }
 
 .projectsImage {
-  background-image: url(https://im2.ezgif.com/tmp/ezgif-2-c2fff58156.gif);
+  background-image: url(../../../public/WorldSpin.gif);
   width: 415px;
-  height: 250px;
+  height: 320px;
   background-size: cover;
   border-radius: 25px;
   display: block;
