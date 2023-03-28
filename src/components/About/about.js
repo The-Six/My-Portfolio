@@ -18,7 +18,7 @@ function About() {
           <div className="aboutTextContainer">
             <a
               className="aboutQuoteAnchor"
-              href="https://www.youtube.com/watch?v=dJQ2Y_V0mQQ"
+              href="https://www.youtube.com/watch?v=ShdmErv5jvs"
               target="blank"
               rel="noopener noreferrer"
             >
