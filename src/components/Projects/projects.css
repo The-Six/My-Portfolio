@@ -40,12 +40,13 @@
 }
 
 .projectsImage {
-  background-image: url(https://gifimage.net/wp-content/uploads/2018/04/pip-boy-gif-3.gif);
+  background-image: url(https://im2.ezgif.com/tmp/ezgif-2-c2fff58156.gif);
   width: 415px;
   height: 250px;
   background-size: cover;
   border-radius: 25px;
   display: block;
+  /* border: 3px solid var(--mainGreen); */
 }
 
 @media screen and (orientation: portrait) {

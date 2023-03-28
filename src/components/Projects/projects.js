@@ -11,7 +11,7 @@ function Projects() {
         <div className="right_projectsBar"></div>
       </div>
       <div className="projectsImage"></div>
-      {/* <img src="https://gifimage.net/wp-content/uploads/2018/04/pip-boy-gif-3.gif" alt="pipBoy"/> */}
+      {/* <img src="https://media.tenor.com/yasksYy1XekAAAAC/matrix-code.gif" alt="pipBoy"/> */}
       <Slider/>
     </div>
   );
