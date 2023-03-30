@@ -41,7 +41,7 @@ function About() {
       </div>
       <div className="about_textBox">
         <p className="about_content">
-          I am a natural problem solver with a keen interest in our symbiotic
+          I am a natural problem solver with a passion for our symbiotic
           relationship with technology. Programming has given me the tools to
           build a tangible bridge between the two.
         </p>

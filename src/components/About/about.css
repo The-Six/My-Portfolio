@@ -41,7 +41,7 @@
 
 .about_textBox {
   height: 20%;
-  width: 28%;
+  width: 30%;
   border: 3px solid var(--mainGreen);
   color: var(--mainGreen);
   display: flex;
