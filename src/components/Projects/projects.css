@@ -46,6 +46,7 @@
   background-size: cover;
   border-radius: 25px;
   display: block;
+  padding-bottom: 2%;
   /* border: 3px solid var(--mainGreen); */
 }
 
