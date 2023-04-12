@@ -52,6 +52,9 @@ function Contact() {
               <div className="linkedin"></div>
             </div>
           </a>
+          <div className="aboutImageContainer">
+          <div className="aboutImage"></div>
+        </div>
           <a
             href="https://github.com/The-Six"
             target="_blank"

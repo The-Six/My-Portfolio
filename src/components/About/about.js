@@ -10,11 +10,19 @@ function About() {
         <div className="right_aboutBar"></div>
       </div>
       <div className="aboutCenterSection">
-        <div className="aboutSpacerSection"></div>
-        <div className="aboutImageContainer">
-          <div className="aboutImage"></div>
+      <div className="aboutSpacerSection"></div>
+        <div className="about_textBox">
+          <p className="about_content">
+            I am a natural problem solver with a passion for our symbiotic
+            relationship with technology. My background in psychology and
+            sociology found me researching the influence of tech in these
+            domains. Programming has given me the tools to explore the
+            opportunity of having a tangible input into the future of this
+            relationship.
+          </p>
         </div>
-        <div className="aboutQuoteSection">
+      </div>
+      <div className="aboutQuoteSection">
           <div className="aboutTextContainer">
             <a
               className="aboutQuoteAnchor"
@@ -24,7 +32,8 @@ function About() {
             >
               <p class="aboutTyping">
                 <p className="aboutTextLine">
-                3. If you graph these numbers, patterns emerge. Therefore: There are patterns everywhere in nature." 
+                  3. If you graph these numbers, patterns emerge. Therefore:
+                  There are patterns everywhere in nature."
                 </p>
                 <p className="aboutTextLine">—𝝅</p>
               </p>
@@ -38,14 +47,6 @@ function About() {
             </a>
           </div>
         </div>
-      </div>
-      <div className="about_textBox">
-        <p className="about_content">
-          I am a natural problem solver with a passion for our symbiotic
-          relationship with technology. Programming has given me the tools to
-          build a tangible bridge between the two.
-        </p>
-      </div>
     </div>
   );
 }

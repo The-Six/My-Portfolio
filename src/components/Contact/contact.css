@@ -83,7 +83,6 @@
   text-align: center;
   width: 50%;
   border: 3px solid var(--mainGreen);
-  
 }
 
 .contact-logo-link {
@@ -120,6 +119,22 @@
   background-repeat: no-repeat;
 }
 
+.aboutImageContainer {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutImage {
+  width: 200px;
+  height: 200px;
+  background-image: url(../../../public/PlanesGreen.jpg);
+  background-size: cover;
+  border-radius: 25px;
+}
+
 @media screen and (orientation: portrait) {
   .contact_text {
     width: 50%;
@@ -128,9 +143,18 @@
   .left_contactBar {
     width: 25%;
   }
-  
+
   .right_contactBar {
     width: 25%;
+  }
+
+  .aboutImageContainer {
+    width: 58%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
   }
 
   .logo-container {
@@ -164,5 +188,4 @@
   .text_area {
     height: 35%;
   }
-
 }
