@@ -10,7 +10,7 @@ function About() {
         <div className="right_aboutBar"></div>
       </div>
       <div className="aboutCenterSection">
-      <div className="aboutSpacerSection"></div>
+        <div className="aboutSpacerSection"></div>
         <div className="about_textBox">
           <p className="about_content">
             I am a natural problem solver with a passion for our symbiotic
@@ -23,30 +23,30 @@ function About() {
         </div>
       </div>
       <div className="aboutQuoteSection">
-          <div className="aboutTextContainer">
-            <a
-              className="aboutQuoteAnchor"
-              href="https://www.youtube.com/watch?v=ShdmErv5jvs"
-              target="blank"
-              rel="noopener noreferrer"
-            >
-              <p class="aboutTyping">
-                <p className="aboutTextLine">
-                  3. If you graph these numbers, patterns emerge. Therefore:
-                  There are patterns everywhere in nature."
-                </p>
-                <p className="aboutTextLine">—𝝅</p>
+        <div className="aboutTextContainer">
+          <a
+            className="aboutQuoteAnchor"
+            href="https://www.youtube.com/watch?v=ShdmErv5jvs"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <p class="aboutTyping">
+              <p className="aboutTextLine">
+                3. If you graph the numbers of any system, patterns emerge.
+                Therefore, there are patterns everywhere in nature."
               </p>
+              <p className="aboutTextLine">—𝝅</p>
+            </p>
 
-              <div class="aboutHiders">
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-              </div>
-            </a>
-          </div>
+            <div class="aboutHiders">
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            </div>
+          </a>
         </div>
+      </div>
     </div>
   );
 }

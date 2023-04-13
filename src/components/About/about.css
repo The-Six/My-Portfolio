@@ -79,7 +79,7 @@
 .aboutTextContainer {
   height: 30%;
   /*change the width depending on the quote*/
-  width: 55%;
+  width: 60%;
   /* border: 3px solid var(--mainGreen); */
   position: relative;
 }
