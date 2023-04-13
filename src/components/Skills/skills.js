@@ -27,7 +27,7 @@ function Skills() {
             className={unActiveButton}
             onClick={() => {setSectionDisplayed("skills"); setActiveButton("skillsButton"); setUnActiveButton("skillsButtonActive")}}
           >
-            Skills
+            Tools
           </button>
         </div>
         <div className="skillsContent">
