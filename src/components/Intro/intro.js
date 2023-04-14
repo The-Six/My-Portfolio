@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import VitalSignsMonitor from '../VitalsMonitor/vitalsMonitor';
 
 function Intro() {
   return (
@@ -10,11 +11,14 @@ function Intro() {
         <div className="right_introBar"></div>
       </div>
       <div className="introCenterSection">
-        <div className="spacerSection"></div>
+        <div className="spacerSection"> 
+        </div>
         <div className="intro_textBox">
-          <h1>Ijaz Driscoll</h1>
+          <h2>Ijaz Driscoll</h2>
           <p>Full Stack Software Engineer</p>
           <p>Based in London, UK.</p>
+          ------
+          <p><VitalSignsMonitor /></p>
         </div>
         <div className="quoteSection">
           <div className="textContainer">
