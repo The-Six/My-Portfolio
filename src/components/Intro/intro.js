@@ -12,13 +12,13 @@ function Intro() {
       </div>
       <div className="introCenterSection">
         <div className="spacerSection"> 
+        <p><VitalSignsMonitor /></p>
         </div>
         <div className="intro_textBox">
           <h2>Ijaz Driscoll</h2>
           <p>Full Stack Software Engineer</p>
           <p>Based in London, UK.</p>
           ------
-          <p><VitalSignsMonitor /></p>
         </div>
         <div className="quoteSection">
           <div className="textContainer">

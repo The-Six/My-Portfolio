@@ -18,10 +18,10 @@ function VitalSignsMonitor() {
   }, []);
 
   return (
-    <div className="left-align-text">
-        <div>&nbsp;Heart Rate:&nbsp;{heartRate}bpm</div>
-        <div>&nbsp;Blood Pressure:&nbsp;{bloodPressure}mmHg</div>
-        <div>&nbsp;Respiratory Rate:&nbsp;{respiratoryRate}&nbsp;breaths/min</div>
+    <div className="glitch-container">
+        <p>&nbsp;Heart Rate:&nbsp;{heartRate}bpm</p>
+        <p>&nbsp;Blood Pressure:&nbsp;{bloodPressure}mmHg</p>
+        <p>&nbsp;Respiratory Rate:&nbsp;{respiratoryRate}&nbsp;breaths/min</p>
         </div>
   );
 }
