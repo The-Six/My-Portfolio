@@ -171,11 +171,12 @@
   }
 
   .aboutCenterSection {
-    width: 90%;
-    height: 50%;
+    width: 95%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   
   .aboutSpacerSection {
@@ -190,7 +191,7 @@
   
   .aboutQuoteSection {
     width: 100%;
-    height: 25%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -16,7 +16,7 @@ function LogEntryForm() {
       <p>Protocol: <span className="blinking-text">66</span></p>
       <p>Location: Coruscant</p>
       <p>Vessel: Eta-2 Actis-class interceptor</p>
-      <p>Log Date: {date.toString()}</p>
+      <p>Date: {date.toString()}</p>
     </div>
   );
 }

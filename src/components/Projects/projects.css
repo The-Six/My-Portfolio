@@ -66,5 +66,7 @@
   .projectsImage {
     width: 332px;
     height: 200px;
+    padding-bottom: 20%;
+    
   }
 }

@@ -131,8 +131,9 @@
   width: 200px;
   height: 200px;
   background-image: url(../../../public/PlanesGreen.jpg);
-  background-size: cover;
   border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (orientation: portrait) {
@@ -149,12 +150,21 @@
   }
 
   .aboutImageContainer {
-    width: 58%;
+    width: 50%;
     height: 60%;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 10%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .aboutImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .logo-container {
