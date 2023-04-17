@@ -58,7 +58,12 @@
   .left_projectsBar {
     width: 25%;
   }
-  
+
+  .left_projectsBar p {
+    display: none;
+  }
+
+
   .right_projectsBar {
     width: 25%;
   }
@@ -67,6 +72,5 @@
     width: 332px;
     height: 200px;
     padding-bottom: 20%;
-    
   }
 }
