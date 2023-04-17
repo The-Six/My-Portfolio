@@ -1,15 +1,25 @@
 .blinking-text {
-    animation: blink 3s linear infinite;
+  animation: blink 5s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
   }
-  
-  @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  50% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+.left-align-text {
+  text-align: left;
+  border-bottom: 3px solid var(--mainGreen);
+  border-top: 3px solid var(--mainGreen); 
+}
+
+.spacer {
+  margin-left: 10px;
+}

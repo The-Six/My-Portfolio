@@ -15,12 +15,12 @@ function About() {
         <div className="aboutSpacerSection"></div>
         <div className="about_textBox">
           <p className="about_content">
-          <LogEntryForm /><p>------</p>I am a natural problem solver with a passion for our
+          I am a natural problem solver with a passion for our
             symbiotic relationship with technology. My background in psychology
             and sociology found me researching the influence of tech in these
             domains. Programming has given me the tools to explore the
             opportunity of having a tangible input into the future of this
-            relationship.
+            relationship.<p>------</p><LogEntryForm />
           </p>
         </div>
       </div>

@@ -12,11 +12,11 @@ function LogEntryForm() {
   }, []);
 
   return (
-    <div>
-      <p>Protocol: <span className="blinking-text">66</span></p>
-      <p>Location: Coruscant</p>
-      <p>Vessel: Eta-2 Actis-class interceptor</p>
-      <p>Date: {date.toString()}</p>
+    <div className="left-align-text">
+      <p className="spacer">Protocol: <span className="blinking-text">66</span></p>
+      <p className="spacer">Location: Coruscant</p>
+      <p className="spacer">Vessel: Eta-2 Actis-class interceptor</p>
+      <p className="spacer">Date: {date.toString()}</p>
     </div>
   );
 }
