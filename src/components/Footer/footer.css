@@ -54,15 +54,15 @@
 
 @media screen and (orientation: portrait) {
   .Footer {
-    font-size: 12px;
+    font-size: small;
   }
 
   .Year {
-    width: 30%;
+    width: 20%;
   }
 
   .Level_container {
-    width: 40%;
+    width: 50%;
   }
 
   .Level {
