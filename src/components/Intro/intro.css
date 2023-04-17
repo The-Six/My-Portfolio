@@ -152,6 +152,10 @@
   .left_introBar {
     width: 25%;
   }
+
+  .left_introBar p {
+    display: none;
+  }
   
   .right_introBar {
     width: 25%;
@@ -193,10 +197,6 @@
   .spacerSection {
     width: 0;
     height: 0;
-  }
-
-  .spacerSection p {
-    display: none;
   }
   
   .quoteSection {
