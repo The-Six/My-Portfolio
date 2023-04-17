@@ -4,9 +4,9 @@ import "./footer.css"
 function Footer() {
   return (
     <div className="Footer">
-      <div className="Year">YR 20/23</div>
+      <div className="Year">Rank:</div>
       <div className="Level_container">
-        <div>LEVEL 10</div>
+        <div>Jedi-Knight</div>
         <div className="Level">
           <div className="XP"></div>
           <div className="XP_remaining"></div>
