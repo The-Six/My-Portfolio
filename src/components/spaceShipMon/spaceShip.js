@@ -2,35 +2,62 @@ import React, { useState, useEffect } from "react";
 import "./spaceShip.css";
 
 function SpaceshipMonitor() {
-  // These are state variables that hold the current values for altitude, velocity, and fuelRemaining, respectively
+  // Initialize state variables with default values
   const [altitude, setAltitude] = useState(2146);
   const [velocity, setVelocity] = useState(2023);
   const [fuelRemaining, setFuelRemaining] = useState(5486);
 
-  // This useEffect hook is used to update the state variables with new values at a fixed interval
+  // Initialize state variables for altitude and velocity directions
+  const [altitudeDirection, setAltitudeDirection] = useState("");
+  const [velocityDirection, setVelocityDirection] = useState("");
+
+  // Use useEffect hook to update state variables at fixed intervals
   useEffect(() => {
-    // setInterval is used to repeatedly execute the callback function after every 3 seconds
+    // Use setInterval to repeatedly execute a callback function after every 3 seconds
     const intervalId = setInterval(() => {
-      // The setAltitude function is used to update the altitude state variable with a new random value between 1000 and 11000 meters
-      setAltitude(Math.floor(Math.random() * 10000) + 1000);
-      // The setVelocity function is used to update the velocity state variable with a new random value between 500 and 5500 meters/second
-      setVelocity(Math.floor(Math.random() * 5000) + 500);
-      // The setFuelRemaining function is used to update the fuelRemaining state variable with a value that is 10 less than the previous value
+      // Generate new values for altitude and velocity
+      const newAltitude = Math.floor(Math.random() * 10000) + 1000;
+      const newVelocity = Math.floor(Math.random() * 5000) + 500;
+
+      // Update altitude and velocity directions based on whether they have increased or decreased
+      setAltitudeDirection(newAltitude > altitude ? "up" : "down");
+      setVelocityDirection(newVelocity > velocity ? "up" : "down");
+
+      // Update state variables with new values
+      setAltitude(newAltitude);
+      setVelocity(newVelocity);
+
+      // Update fuelRemaining state variable by decrementing its previous value by 10
       setFuelRemaining((prevFuelRemaining) => prevFuelRemaining - 10);
     }, 3000);
 
-    // The return statement within useEffect is used to cleanup any resources that were created within the effect
-    // In this case, it clears the interval to stop the execution of the callback function
+    // Return a cleanup function that clears the interval to stop the execution of the callback function
     return () => clearInterval(intervalId);
   }, []);
 
+  // Render altitude, velocity, and fuelRemaining values with corresponding directional arrows
   return (
     <div className="space-container">
-      <p>&nbsp;Altitude:&nbsp;{altitude}m</p>
-      <p>&nbsp;Velocity:&nbsp;{velocity}m/s</p>
+      <p>
+        &nbsp;Altitude:&nbsp;{altitude}m&nbsp;
+        {altitudeDirection === "up" ? (
+          <span>&uarr;</span>
+        ) : (
+          <span>&darr;</span>
+        )}
+      </p>
+      <p>
+        &nbsp;Velocity:&nbsp;{velocity}m/s&nbsp;
+        {velocityDirection === "up" ? (
+          <span>&uarr;</span>
+        ) : (
+          <span>&darr;</span>
+        )}
+      </p>
       <p>&nbsp;Fuel Remaining:&nbsp;{fuelRemaining}&nbsp;liters</p>
     </div>
   );
 }
+
 
 export default SpaceshipMonitor;

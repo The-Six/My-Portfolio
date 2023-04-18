@@ -12,7 +12,6 @@ function Projects() {
         </div>
         <div className="projects_text">P R O J E C T S</div>
         <div className="right_projectsBar">
-        <div className="deathStar"></div>
         </div>
       </div>
       <div className="projectsImage"></div>
