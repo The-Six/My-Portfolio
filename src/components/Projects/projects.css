@@ -40,15 +40,25 @@
 }
 
 .projectsImage {
-  background-image: url(../../../public/WorldSpin.gif);
-  width: 415px;
-  height: 320px;
+  background-image: url(../../../public/death.gif);
+  width: 300px;
+  height: 300px;
   background-size: cover;
   border-radius: 25px;
   display: block;
+  margin-right: 20px;
   padding-bottom: 2%;
   /* border: 3px solid var(--mainGreen); */
 }
+
+/* .deathStar {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-image: url(../../../public/WorldSpin.gif);
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+} */
 
 @media screen and (orientation: portrait) {
   .projects_text {
@@ -69,7 +79,7 @@
   }
 
   .projectsImage {
-    width: 332px;
+    width: 300px;
     height: 200px;
     padding-bottom: 20%;
   }
