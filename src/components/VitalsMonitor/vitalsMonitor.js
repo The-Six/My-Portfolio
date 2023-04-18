@@ -21,7 +21,7 @@ function VitalSignsMonitor() {
     <div className="glitch-container">
         <p>&nbsp;Heart Rate:&nbsp;{heartRate}bpm</p>
         <p>&nbsp;Blood Pressure:&nbsp;{bloodPressure}mmHg</p>
-        <p>&nbsp;Respiratory Rate:&nbsp;{respiratoryRate}&nbsp;breaths/min</p>
+        <p>&nbsp;Respiratory Rate:&nbsp;{respiratoryRate}&nbsp;breaths/mi<span className="faulty-letter">n</span></p>
         </div>
   );
 }

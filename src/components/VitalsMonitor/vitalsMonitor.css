@@ -9,7 +9,6 @@
   margin-left: 20px;
 }
 
-
 .glitch-container p,
 p::after {
   display: flex;
@@ -106,5 +105,37 @@ p::after {
   100% {
     clip-path: var(--slice-1);
     transform: translate(0);
+  }
+}
+
+.faulty-letter {
+  opacity: 0.5;
+  animation: faulty-glow 2s linear infinite;
+}
+
+@keyframes faulty-glow {
+  0% {
+    opacity: 0.1;
+  }
+  2% {
+    opacity: 0.1;
+  }
+  4% {
+    opacity: 0.5;
+  }
+  19% {
+    opacity: 0.5;
+  }
+  21% {
+    opacity: 0.1;
+  }
+  23% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  87% {
+    opacity: 1;
   }
 }

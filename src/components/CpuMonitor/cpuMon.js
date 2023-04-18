@@ -18,7 +18,7 @@ function ComputerMonitor() {
 
   return (
     <div className="glitch-container">
-      <p>&nbsp;CPU Usage:&nbsp;{cpuUsage}%</p>
+      <p>&nbsp;C<span className="faulty-letter">P</span>U Usage:&nbsp;{cpuUsage}%</p>
       <p>&nbsp;Memory Usage:&nbsp;{memoryUsage}%</p>
       <p>&nbsp;Internet Speed:&nbsp;{internetSpeed}Mbps</p>
     </div>
