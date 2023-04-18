@@ -9,6 +9,7 @@
   margin-left: 20px;
 }
 
+
 .glitch-container p,
 p::after {
   display: flex;
@@ -18,7 +19,9 @@ p::after {
   width: 100%;
   height: 100%;
   background: linear-gradient(135deg, #00180b 95%, transparent 5%);
-  border: 0;
+  border-top: 3px solid var(--mainGreen);
+  border-left: 3px solid var(--mainGreen);
+  border-radius: 3px;
   color: #10c55c;
   line-height: 1.25em;
   position: relative;
@@ -36,6 +39,7 @@ p::after {
   content: "DEVENIR CORSAIRE";
   display: flex;
   position: absolute;
+  border: 0;
   left: 0;
   top: 0;
   background: linear-gradient(135deg, #10c55c 95%, #000 5%);

@@ -18,7 +18,7 @@ function SpaceshipMonitor() {
     }, []);
   
     return (
-      <div className="glitch-container">
+      <div className="space-container">
           <p>&nbsp;Altitude:&nbsp;{altitude}m</p>
           <p>&nbsp;Velocity:&nbsp;{velocity}m/s</p>
           <p>&nbsp;Fuel Remaining:&nbsp;{fuelRemaining}&nbsp;liters</p>

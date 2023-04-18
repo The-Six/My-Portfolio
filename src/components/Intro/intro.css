@@ -141,8 +141,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   width: 30%;
-  height: 35.5%;
+  height: 36.5%;
   background-position: center;
+  margin-bottom: 11px;
 }
 
 @media screen and (orientation: portrait) {
