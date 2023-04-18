@@ -1,8 +1,7 @@
 import React from "react";
 import "./about.css";
 import LogEntryForm from '../LogEntryForm/logentry';
-import ComputerMonitor from '../CpuMonitor/cpuMon'
-
+import VitalSignsMonitor from '../VitalsMonitor/vitalsMonitor';
 
 
 function About() {
@@ -10,7 +9,7 @@ function About() {
     <div className="About">
       <div className="about_box">
         <div className="left_aboutBar">
-        <p><ComputerMonitor/></p>
+        <p><VitalSignsMonitor/></p>
         </div>
         <div className="about_text">A B O U T</div>
         <div className="right_aboutBar">

@@ -1,13 +1,13 @@
 import React from "react";
 import "./intro.css";
-import VitalSignsMonitor from '../VitalsMonitor/vitalsMonitor';
+import ComputerMonitor from '../CpuMonitor/cpuMon'
 
 function Intro() {
   return (
     <div className="Intro">
       <div className="intro_box">
         <div className="left_introBar">
-        <p><VitalSignsMonitor /></p>
+        <p><ComputerMonitor /></p>
         </div>
         <div className="intro_text">W E L C O M E</div>
         <div className="right_introBar"></div>
