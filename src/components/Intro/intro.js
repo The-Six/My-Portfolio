@@ -19,7 +19,7 @@ function Intro() {
           <h2>Ijaz Driscoll</h2>
           <p>Full Stack Software Engineer</p>
           <p>Based in London, UK.</p>
-          ------
+          01010100 01101000 01100101 00100000 00110110
         </div>
         <div className="quoteSection">
           <div className="textContainer">
