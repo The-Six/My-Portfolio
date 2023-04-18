@@ -12,6 +12,7 @@ function Skills() {
     <div className="Skills">
       <div className="skills_box">
         <div className="left_skillsBar">
+        <div className="death"></div>
         </div>
         <div className="skills_text">S K I L L S</div>
         <div className="right_skillsBar">

@@ -44,6 +44,15 @@
   margin-top: 80px;
 }
 
+.death {
+  background-image: url(../../../public/skill.gif);
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+  margin-left: 160px;
+  margin-top: 113px;
+}
+
 .skills_text {
   display: flex;
   width: 20%;
@@ -88,7 +97,7 @@
   background-color: var(--backgroundColor);
   color: var(--mainGreen);
   text-shadow: 0 0 8px green;
-  font-family: 'VT323', cursive;
+  font-family: "VT323", cursive;
   cursor: pointer;
 }
 
@@ -101,7 +110,7 @@
   height: 10%;
   background-color: var(--backgroundColor);
   color: var(--backgroundColor);
-  font-family: 'VT323', cursive;
+  font-family: "VT323", cursive;
 }
 
 @media screen and (orientation: portrait) {
@@ -113,10 +122,14 @@
     width: 25%;
   }
 
+  .left_skillsBar div {
+    display: none;
+  }
+
   .right_skillsBar div {
     display: none;
   }
-  
+
   .right_skillsBar {
     width: 25%;
   }
@@ -128,7 +141,7 @@
     width: 100%;
     justify-content: space-evenly;
   }
-  
+
   .skillsButtonContainer {
     display: flex;
     flex-direction: row;
@@ -143,9 +156,9 @@
 
   .skillsButton {
     width: 20%;
-    height: 100%;  
+    height: 100%;
   }
-  
+
   .skillsButtonActive {
     width: 20%;
     height: 100%;
