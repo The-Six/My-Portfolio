@@ -8,7 +8,7 @@ function Footer() {
       <div className="Level_container">
         <div>Jedi-Knight</div>
         <div className="Level">
-          <div className="XP"></div>
+          <div className="XP faulty-letter"></div>
           <div className="XP_remaining"></div>
         </div>
       </div>

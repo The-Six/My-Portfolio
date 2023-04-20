@@ -9,6 +9,7 @@
   color: white;
   text-shadow: 0 0 8px green;
   font-family: 'VT323', cursive;
+  overflow: hidden;
 }
 
 
