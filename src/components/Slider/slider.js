@@ -1,7 +1,8 @@
 import { SliderData } from "./data.js";
 import "./slider.css";
 import React, { useState } from "react";
-import {IoIosArrowBack, IoIosArrowForward} from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import Modal from "../Modal/modal.js";
 
 function Slider() {
   console.log(SliderData);
@@ -9,6 +10,8 @@ function Slider() {
   const [prev, setPrev] = useState(length - 1);
   const [current, setCurrent] = useState(0);
   const [next, setNext] = useState(1);
+  const [hovering, setHovering] = useState(false);
+  const [itemOn, setItemOn] = useState({});
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
     setNext(next === length - 1 ? 0 : next + 1);
@@ -24,46 +27,80 @@ function Slider() {
     return null;
   }
 
+  const Test = () => {
+    console.log(itemOn);
+    if (hovering) {
+      return <Modal item={itemOn} setHovering={setHovering} />;
+    }
+  };
+
+  function handleMouseOver(item) {
+    console.log(item);
+    setHovering(true);
+    setItemOn(item);
+  }
+
+  // function handleMouseOut() {
+  //   console.log("here2");
+  //   setHovering(false);
+  // }
+
   return (
     <section className="sliderContainer">
-    <section className="Slider">
-      <div className="sliderInbetween">
-        <IoIosArrowBack className="arrow" onClick={prevSlide}></IoIosArrowBack>
-      </div>
-      <div className="SliderContent">
-        <img
-          className="LeftSlide"
-          src={SliderData[prev].image}
-          alt="previous slide"
-        />
-        <div className="sliderInbetweenInner"></div>
-        <div className="CenterContainer">
-          <a
-            href={SliderData[current].link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="CenterAnchor"
-          >
-            <img
-              className="CenterImage"
-              src={SliderData[current].image}
-              alt="current slide"
-            />
-          </a>
+      <Test />
+      <section className="Slider">
+        <div className="sliderInbetween">
+          <IoIosArrowBack
+            className="arrow"
+            onClick={prevSlide}
+          ></IoIosArrowBack>
         </div>
-        <div className="sliderInbetweenInner"></div>
-        <img
-          className="RightSlide"
-          src={SliderData[next].image}
-          alt="next slide"
-        />
-      </div>
-      <div className="sliderInbetween">
-        <IoIosArrowForward className="arrow" onClick={nextSlide}></IoIosArrowForward>
-      </div>
+        <div className="SliderContent">
+          <img
+            className="LeftSlide"
+            src={SliderData[prev].image}
+            alt="previous slide"
+            // onMouseOver={() => handleMouseOver(SliderData[prev])}
+            // onMouseOut={handleMouseOut}
+          />
+          <div className="sliderInbetweenInner"></div>
+          <div
+            className="CenterContainer"
+            onMouseOver={() => handleMouseOver(SliderData[current])}
+            // onMouseOut={handleMouseOut}
+            // onMouseLeave={handleMouseOut}
+          >
+            <a
+              href={SliderData[current].link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="CenterAnchor"
+            >
+              <img
+                className="CenterImage"
+                src={SliderData[current].image}
+                alt="current slide"
+              ></img>
+            </a>
+          </div>
+          <div className="sliderInbetweenInner"></div>
+          <img
+            className="RightSlide"
+            src={SliderData[next].image}
+            alt="next slide"
+            // onMouseOver={() => handleMouseOver(SliderData[next])}
+            // onMouseOut={handleMouseOut}
+          />
+        </div>
+        <div className="sliderInbetween">
+          <IoIosArrowForward
+            className="arrow"
+            onClick={nextSlide}
+          ></IoIosArrowForward>
+        </div>
+      </section>
+      <p className="CenterSlideTxt">{SliderData[current].title}</p>
     </section>
-       <p className="CenterSlideTxt">{SliderData[current].title}</p> 
-       </section>
   );
 }
 

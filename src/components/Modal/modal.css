@@ -1,0 +1,88 @@
+.modalContainer {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  height: 30vh;
+  width: 50vw;
+  z-index: 2000;
+  bottom: 40vh;
+}
+
+.modalContent {
+  height: 50%;
+  width: 100%;
+  border: 3px solid var(--mainGreen);
+  color: var(--mainGreen);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: var(--secondaryGreen);
+}
+
+.modalContent h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* display: flex;
+  flex-direction: row;
+  background-color: var(--secondaryGreen);
+  border: 3px solid var(--mainGreen);
+  border-radius: 25px;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-around;
+
+  /* height: 50vh;
+    width: 50vw;     */
+
+.modalCloseButton {
+  display: flex;
+  flex-direction: column-reverse;
+  border: 3px solid var(--mainGreen);
+  border-radius: 50px;
+  background-color: var(--mainGreen);
+  color: #000;
+  cursor: pointer;
+  margin-top: 9px;
+}
+
+.topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faulty-button {
+  opacity: 0.5;
+  animation: faulty-glow 10s linear infinite;
+}
+
+@keyframes faulty-glow {
+  0% {
+    opacity: 0.1;
+  }
+  2% {
+    opacity: 0.1;
+  }
+  4% {
+    opacity: 0.5;
+  }
+  19% {
+    opacity: 0.5;
+  }
+  21% {
+    opacity: 0.1;
+  }
+  23% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  87% {
+    opacity: 1;
+  }
+}

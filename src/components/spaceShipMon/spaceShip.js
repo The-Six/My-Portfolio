@@ -5,7 +5,7 @@ function SpaceshipMonitor() {
   // Initialize state variables with default values
   const [altitude, setAltitude] = useState(2146);
   const [velocity, setVelocity] = useState(2023);
-  const [fuelRemaining, setFuelRemaining] = useState(5486);
+  const [fuelRemaining, setFuelRemaining] = useState(54860);
 
   // Initialize state variables for altitude and velocity directions
   const [altitudeDirection, setAltitudeDirection] = useState("");
@@ -28,7 +28,7 @@ function SpaceshipMonitor() {
       setVelocity(newVelocity);
 
       // Update fuelRemaining state variable by decrementing its previous value by 10
-      setFuelRemaining((prevFuelRemaining) => prevFuelRemaining - 10);
+      setFuelRemaining((prevFuelRemaining) => prevFuelRemaining - 146);
     }, 3000);
 
     // Return a cleanup function that clears the interval to stop the execution of the callback function
@@ -54,7 +54,7 @@ function SpaceshipMonitor() {
           <span>&darr;</span>
         )}
       </p>
-      <p>&nbsp;Fuel Remaining:&nbsp;{fuelRemaining}&nbsp;liters</p>
+      <p>&nbsp;Hypermatter Reactor:&nbsp;{fuelRemaining}TWh</p>
     </div>
   );
 }

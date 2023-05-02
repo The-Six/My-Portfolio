@@ -13,9 +13,9 @@ function LogEntryForm() {
 
   return (
     <div className="left-align-text">
-      <p className="spacer">Protocol: 66</p>
-      <p className="spacer">Location: Coruscant</p>
-      <p className="spacer">Vessel: Death Star</p>
+      <p className="spacer">Call-Sign: Rogue One</p>
+      <p className="spacer">Orbiting: Coruscant</p>
+      <p className="spacer">Target: Death Star</p>
       <p className="spacer">Date: {date.toString()}</p>
     </div>
   );

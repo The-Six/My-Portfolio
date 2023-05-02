@@ -21,7 +21,7 @@
   animation-duration: 20s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  z-index: 50;
+  z-index: 2500;
 }
 
 @keyframes slidein {
