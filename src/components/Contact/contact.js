@@ -53,7 +53,11 @@ function Contact() {
             </div>
           </a>
           <div className="aboutImageContainer">
+          <a href="https://ijaz-driscoll.tumblr.com/"
+            target="_blank"
+            rel="noopener noreferrer">
           <div className="aboutImage"></div>
+          </a>
         </div>
           <a
             href="https://github.com/The-Six"
