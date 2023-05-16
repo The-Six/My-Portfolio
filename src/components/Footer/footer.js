@@ -1,5 +1,5 @@
-import React from 'react'
-import "./footer.css"
+import React from "react";
+import "./footer.css";
 
 function Footer() {
   return (
@@ -8,12 +8,12 @@ function Footer() {
       <div className="Level_container">
         <div className="Level">
           <div className="XP"></div>
-          <div className="XP_remaining faulty-letter"></div>
+          <div className="XP_remaining"></div>
         </div>
       </div>
       <div className="Copyright">Copyright Ijaz Driscoll</div>
     </div>
-  )
+  );
 }
 
-export default  Footer
+export default Footer;
