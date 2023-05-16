@@ -4,12 +4,11 @@ import "./footer.css"
 function Footer() {
   return (
     <div className="Footer">
-      <div className="Year">Rank:</div>
+      <div className="Year">Rank: Jedi-Knight</div>
       <div className="Level_container">
-        <div>Jedi-Knight</div>
         <div className="Level">
-          <div className="XP faulty-letter"></div>
-          <div className="XP_remaining"></div>
+          <div className="XP"></div>
+          <div className="XP_remaining faulty-letter"></div>
         </div>
       </div>
       <div className="Copyright">Copyright Ijaz Driscoll</div>
