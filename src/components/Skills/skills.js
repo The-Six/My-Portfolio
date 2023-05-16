@@ -29,7 +29,7 @@ function Skills() {
               setUnActiveButton("skillsButton");
             }}
           >
-            Tech Stk
+            TECH STK
           </button>
           <button
             className={unActiveButton}
@@ -39,7 +39,7 @@ function Skills() {
               setUnActiveButton("skillsButtonActive");
             }}
           >
-            Tools
+            TOOLS
           </button>
         </div>
         <div className="skillsContent">
