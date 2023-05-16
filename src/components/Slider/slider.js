@@ -77,7 +77,7 @@ function Slider() {
               className="CenterAnchor"
             >
               <img
-                className="CenterImage"
+                className="CenterImage pulse"
                 src={SliderData[current].image}
                 alt="current slide"
               ></img>
