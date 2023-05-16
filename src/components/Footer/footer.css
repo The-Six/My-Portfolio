@@ -50,22 +50,22 @@
 
 .XP_remaining {
   width: 69%;
-  margin-top: 2px;
+  margin-top: 3.4px;
   margin-right: 50px;
-  height: 60%;
+  height: 55%;
   background-color: var(--mainGreen);
   border: 2px solid var(--mainGreen);
   border-radius: 25px;
-  box-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 10px #10c55c, 0 0 15px #10c55c,
-    0 0 20px #10c55c, 0 0 25px #10c55c;
+  box-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 10px #10c55c, 0 0 15px #10c55c,
+    0 0 10px #10c55c, 0 0 15px #10c55c;
   animation: blink 0.9s infinite alternate;
   /* border-left: 0px; */
 }
 
 @keyframes blink {
   100% {
-    box-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 20px #10c55c,
-      0 0 20px #10c55c, 0 0 10px #10c55c;
+    box-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 15px #10c55c,
+      0 0 10px #10c55c, 0 0 15px #10c55c;
   }
 }
 

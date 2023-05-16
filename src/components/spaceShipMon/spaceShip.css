@@ -5,11 +5,11 @@
 }
 
 .space-container span {
-  animation: blink 3s linear infinite;
+  animation: tap 3s linear infinite;
 }
 
 
-@keyframes blink {
+@keyframes tap {
   0% {
     opacity: 1;
   }
