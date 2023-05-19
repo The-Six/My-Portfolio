@@ -4,7 +4,7 @@ export const SliderData = [
     title: "Anakin Skywalker Tribute",
     link: "https://new-responsive-web-design-tribute-page.vercel.app/",
     description:
-      "I built a tribute page for Anakin Skywalker using pure HTML5 and CSS3, which was the first webpage I ever created. The page pays homage to my favourite Star Wars character and showcases his journey. The layout and design were created entirely by me and I focused on making it visually appealing and easy to navigate.",
+      "The first webpage I ever created. I built a tribute page for Anakin Skywalker using pure HTML5 and CSS3. The page pays homage to my favourite Star Wars character and showcases his journey. I focused on making it visually appealing and easy to navigate.",
   },
   {
     image: "https://iili.io/UjazMB.jpg",
