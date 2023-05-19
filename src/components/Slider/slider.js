@@ -56,12 +56,6 @@ function Slider() {
           ></IoIosArrowBack>
         </div>
         <div className="SliderContent">
-        <a
-              href={SliderData[prev].link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="CenterAnchor"
-            >
           <img
             className="LeftSlide pulse"
             src={SliderData[prev].image}
@@ -69,7 +63,6 @@ function Slider() {
             onMouseOver={() => handleMouseOver(SliderData[prev])}
             // onMouseOut={handleMouseOut}
           />
-          </a>
           <div className="sliderInbetweenInner"></div>
           <div
             className="CenterContainer"
@@ -91,12 +84,6 @@ function Slider() {
             </a>
           </div>
           <div className="sliderInbetweenInner"></div>
-          <a
-              href={SliderData[next].link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="CenterAnchor"
-            >
           <img
             className="RightSlide pulse"
             src={SliderData[next].image}
@@ -104,7 +91,6 @@ function Slider() {
             onMouseOver={() => handleMouseOver(SliderData[next])}
             // onMouseOut={handleMouseOut}
           />
-          </a>
         </div>
         <div className="sliderInbetween">
           <IoIosArrowForward
