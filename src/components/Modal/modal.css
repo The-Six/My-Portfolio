@@ -87,3 +87,15 @@
     opacity: 1;
   }
 }
+
+@media screen and (orientation: portrait) {
+  .modalContent {
+    height: 90%;
+    width: 100%;
+  }
+
+  .modalContainer { 
+    height: 35vh;
+    width: 60vw;
+  }
+}
