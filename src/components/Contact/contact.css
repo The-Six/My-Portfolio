@@ -136,7 +136,7 @@
   border-radius: 25px;
   background-size: cover;
   background-repeat: no-repeat;
-  animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out 1s;
 }
 
 
