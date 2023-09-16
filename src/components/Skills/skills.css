@@ -46,11 +46,13 @@
 
 .death {
   background-image: url(../../../public/skill.gif);
-  width: 470px;
-  height: 400px;
+  width: 250px;
+  height: 390px;
   background-size: contain;
-  margin-left: 150px;
-  margin-top: 40px;
+  border-top: 2px solid var(--mainGreen);
+  border-bottom: 7px solid var(--mainGreen);
+  margin-left: 253px;
+  margin-top: 92px;
 }
 
 .skills_text {
