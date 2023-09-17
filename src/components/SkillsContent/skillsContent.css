@@ -1,79 +1,75 @@
-
 .Container {
-    width: 39%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(../../../public/green_gif.gif);
-    background-size: contain;
-    background-position: center;
-    border-radius: 10px;
-    background-repeat: no-repeat;
+  width: 39%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../public/green_gif.gif);
+  background-size: contain;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
 }
 /* ../../../public/green_gif.gif */
 
-
 .TopSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 20%;
-    width: 100%;
-    /* border-bottom: 3px solid var(--mainGreen);  */
-    border-right: 3px solid var(--mainGreen);
-    border-left: 3px solid var(--mainGreen);
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20%;
+  width: 100%;
+  /* border-bottom: 3px solid var(--mainGreen);  */
+  border-right: 3px solid var(--mainGreen);
+  border-left: 3px solid var(--mainGreen);
+  align-items: center;
 }
 
 .MidSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 20%;
-    width: 100%;
-    padding-top: 10%;
-    /* border-bottom: 3px solid var(--mainGreen);  */
-    border-right: 3px solid var(--mainGreen);
-    border-left: 3px solid var(--mainGreen);
-    /* padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  padding-top: 10%;
+  /* border-bottom: 3px solid var(--mainGreen);  */
+  border-right: 3px solid var(--mainGreen);
+  border-left: 3px solid var(--mainGreen);
+  /* padding-top: 10%;
     padding-bottom: 10%; */
 }
 
 .BottomSection {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    /* padding-bottom: 31%;  */
-    padding-top: 20%;
-    justify-content: space-around;
-    border-right: 3px solid var(--mainGreen); 
-    border-left: 3px solid var(--mainGreen);
-    height: 20%;
-    width: 100%;
-    
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* padding-bottom: 31%;  */
+  padding-top: 20%;
+  justify-content: space-around;
+  border-right: 3px solid var(--mainGreen);
+  border-left: 3px solid var(--mainGreen);
+  height: 20%;
+  width: 100%;
 }
 
 .logo {
-    color: var(--mainGreen);
-    background-color: transparent;
-    height: 50px;
-    width: 50px;
-    animation-name: spin;
-    animation-duration: 500ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
+  color: var(--mainGreen);
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  animation-name: spin;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* .bottomLogo {
@@ -84,29 +80,28 @@
 } */
 
 @media screen and (orientation: portrait) {
-    .Container {
-        width: 290px;
-        height: 291px;
-    }
+  .Container {
+    width: 290px;
+    height: 291px;
+  }
 
-    .logo {
-        height: 35px;
-        width: 35px;
-    }
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
 
-    .BottomSection {
-        /* align-items: center; */
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 31%; 
-        padding-top: 24%;
-        justify-content: space-between;
-        height: 15%;
-        width: 100%;
-    }
+  .BottomSection {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 31%;
+    padding-top: 24%;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+  }
 
-
-    .TopSection {
-        height: 15%;
-    }
+  .TopSection {
+    height: 15%;
+  }
 }
