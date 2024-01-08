@@ -1,6 +1,6 @@
 export const SliderData = [
   {
-    image: "https://www.linkpicture.com/q/2023-03-17-1.png",
+    image: "https://iili.io/J7VbeVf.png",
     title: "Anakin Skywalker Tribute",
     link: "https://new-responsive-web-design-tribute-page.vercel.app/",
     description:
@@ -22,10 +22,10 @@ export const SliderData = [
     image: "https://iili.io/Z2PpEb.md.png",
     title: "Events Hackathon",
     link: "https://event-hackathon.vercel.app/",
-    description: "test4",
+    description: "Our team of two built a frontend application called Events Hackathon, using JavaScript, CSS3 and React.js. The app is a platform for users to find and book tickets to events taking place around the world. I primarily focused on the user interface design and integrating the Events API. The project was completed in one day.",
   },
   {
-    image: "https://www.linkpicture.com/q/2023-03-17.png",
+    image: "https://iili.io/J7VDGpe.png",
     title: "Ukraine Crisis",
     link: "https://bae-team-5-front-end.vercel.app/",
     description:
